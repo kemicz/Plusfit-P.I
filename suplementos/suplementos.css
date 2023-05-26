@@ -1,0 +1,13 @@
+
+body{
+    background-image: url('imagem\ suplementos/fundo.jpg');
+    background-repeat: no-repeat;
+    
+}
+@media screen and (max-width: 1786){
+    body{
+        background-image: url('imagem\ suplementos/fundo.jpg');
+        background-size: auto;
+        background-size: 100%;
+    }
+}
