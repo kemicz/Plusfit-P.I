@@ -11,3 +11,8 @@ body{
         background-size: 100%;
     }
 }
+.tabela{
+    margin-left: auto;
+    margin-right: 30%;
+    /* centralizar na metade da página!!!*/
+}
