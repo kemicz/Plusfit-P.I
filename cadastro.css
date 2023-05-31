@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: #00413D;
+}
+
+.img-1{
+    width: 15%;
+    margin: auto;
+}
+
+.form-cadastro{
+    flex-direction: column;
+    display:flex ;
+    width: 20%;
+    margin: auto;
+    font-size: xx-large;
+}
+
+#name{
+    width: 100%;
+    background-color: #0A5B56;
+    border: 0;
+    padding: 10px;
+}
+
+.l-name{
+    margin-bottom: 20px;
+}
+
+#email{
+    width: 100%;
+    background-color: #0A5B56;
+    border: 0;
+    padding: 10px;
+}
+
+.l-email{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#senha{
+    width: 100%;
+    background-color: #0A5B56;
+    border: 0;
+    padding: 10px;
+}
