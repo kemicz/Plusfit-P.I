@@ -9,6 +9,12 @@
     margin: auto;
 }
 
+@media screen and (max-width: 600px) {
+	.img-1 {
+		width: 50%;
+	}
+}
+
 .form-cadastro{
     flex-direction: column;
     display:flex ;
@@ -17,15 +23,31 @@
     font-size: xx-large;
 }
 
+@media screen and (max-width: 600px) {
+	.form-cadastro {
+		width: 50%;
+	}
+}
+
 #name{
     width: 100%;
     background-color: #0A5B56;
     border: 0;
     padding: 10px;
+    border-radius: 100px;
+    color: white;
 }
+
 
 .l-name{
     margin-bottom: 20px;
+    color: #FFDDA6;
+}
+
+@media screen and (max-width: 600px) {
+	.l-name {
+		font-size: medium;
+	}
 }
 
 #email{
@@ -33,11 +55,20 @@
     background-color: #0A5B56;
     border: 0;
     padding: 10px;
+    border-radius: 100px;
+    color: white;
 }
 
 .l-email{
     margin-top: 40px;
     margin-bottom: 20px;
+    color: #FFDDA6;
+}
+
+@media screen and (max-width: 600px) {
+	.l-email {
+		font-size: medium;
+	}
 }
 
 #senha{
@@ -45,4 +76,18 @@
     background-color: #0A5B56;
     border: 0;
     padding: 10px;
+    border-radius: 100px;
+    color: white;
+}
+
+.l-senha{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #FFDDA6;
+}
+
+@media screen and (max-width: 600px) {
+	.l-senha {
+		font-size: medium;
+	}
 }
