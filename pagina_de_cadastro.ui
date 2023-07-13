@@ -449,10 +449,10 @@ color: rgb(255, 221, 166);</string>
     <widget class="QPushButton" name="cadastrar">
      <property name="geometry">
       <rect>
-       <x>340</x>
-       <y>760</y>
-       <width>31</width>
-       <height>31</height>
+       <x>140</x>
+       <y>700</y>
+       <width>121</width>
+       <height>41</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -474,7 +474,7 @@ background-color: #008779;
 }</string>
      </property>
      <property name="text">
-      <string>&gt;</string>
+      <string>Cadastrar</string>
      </property>
     </widget>
     <widget class="QPushButton" name="voltaplogin">
