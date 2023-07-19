@@ -129,5 +129,5 @@ tela5.treinoemcasa.clicked.connect(treinoemcasa)
 tela5.suplementos.clicked.connect(suplementos)
 tela5.exercicios.clicked.connect(exercicio)
 
-tela2.show()
+tela1.show()
 app.exec()
