@@ -279,7 +279,7 @@ border:none;
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../Downloads/Design sem nome (14).png</pixmap>
+    <pixmap>../Desktop/fotos/fundoperfil.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -310,7 +310,7 @@ border:none;
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../Downloads/Design sem nome (6).png</pixmap>
+    <pixmap>../Downloads/logoperfil.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>

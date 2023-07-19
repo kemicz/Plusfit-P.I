@@ -55,7 +55,7 @@ background-color: rgb(1, 55, 51);
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Downloads/titulo-topicos.png</pixmap>
+     <pixmap>../Desktop/fotos/titulo-topicos.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -110,7 +110,7 @@ background-color: rgb(1, 55, 51);
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../Downloads/Design sem nome (13).png</pixmap>
+    <pixmap>../Downloads/fundomenu.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>

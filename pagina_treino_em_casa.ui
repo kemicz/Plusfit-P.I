@@ -281,7 +281,7 @@ font: 8pt &quot;Georgia&quot;;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../Downloads/desenho.png</pixmap>
+     <pixmap>desenho_treinocasa.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -344,7 +344,7 @@ font: 8pt &quot;Georgia&quot;;</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>ICONE-MENU.png</normaloff>ICONE-MENU.png</iconset>
+       <normaloff>../Desktop/fotos/menu.png</normaloff>../Desktop/fotos/menu.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -373,7 +373,7 @@ font: 8pt &quot;Georgia&quot;;</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>ICONE-TREINO.png</normaloff>ICONE-TREINO.png</iconset>
+       <normaloff>../Desktop/fotos/treino.png</normaloff>../Desktop/fotos/treino.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -402,7 +402,7 @@ font: 8pt &quot;Georgia&quot;;</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>ICONE-CONFIG.png</normaloff>ICONE-CONFIG.png</iconset>
+       <normaloff>../Desktop/fotos/config.png</normaloff>../Desktop/fotos/config.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -437,7 +437,7 @@ font: 8pt &quot;Georgia&quot;;</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>ICONE-PERFIL.png</normaloff>ICONE-PERFIL.png</iconset>
+       <normaloff>../Desktop/fotos/perfil.png</normaloff>../Desktop/fotos/perfil.png</iconset>
      </property>
      <property name="iconSize">
       <size>
