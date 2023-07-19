@@ -19,6 +19,22 @@ def cadastrar():
 def larginina():
     webbrowser.open("https://www.gsuplementos.com.br/conteudo/arginina-beneficios/")
 
+def creatina():
+    webbrowser.open("https://www.gsuplementos.com.br/conteudo/creatina-beneficios")
+
+def bcaa():
+    webbrowser.open("https://www.gsuplementos.com.br/conteudo/bcaa-beneficios/")
+
+def glutamina():
+    webbrowser.open("https://www.gsuplementos.com.br/conteudo/glutamina-beneficios/")
+
+def omega3():
+    webbrowser.open("https://www.gsuplementos.com.br/conteudo/omega-beneficios/")
+    
+def omega3():
+    webbrowser.open("https://www.gsuplementos.com.br/conteudo/whey-beneficios/")
+
+
 app = QtWidgets.QApplication([])
 tela = uic.loadUi("pagina_de_cadastro.ui")
 tela1 = uic.loadUi("login.ui")
@@ -28,6 +44,12 @@ tela4 = uic.loadUi("perfil.ui")
 tela1.cadastrarlog.clicked.connect(castrar)
 tela.voltaplogin.clicked.connect(voltaplogin)
 tela3.l_arginina.clicked.connect(larginina)
+tela3.l_arginina.clicked.connect(bcaa)
+tela3.l_arginina.clicked.connect(whey)
+tela3.l_arginina.clicked.connect(creatina)
+tela3.l_arginina.clicked.connect(glutamina)
+tela3.l_arginina.clicked.connect(omega3)
+
 tela.cadastrar.clicked.connect(cadastrar)
-tela1.show()
+tela3.show()
 app.exec()
