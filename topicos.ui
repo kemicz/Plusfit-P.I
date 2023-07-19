@@ -16,12 +16,6 @@
     <height>844</height>
    </size>
   </property>
-  <property name="maximumSize">
-   <size>
-    <width>390</width>
-    <height>844</height>
-   </size>
-  </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
@@ -61,7 +55,7 @@ background-color: rgb(1, 55, 51);
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Downloads/treino em casa (2) (2).png</pixmap>
+     <pixmap>../Downloads/titulo-topicos.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -87,7 +81,7 @@ background-color: rgb(1, 55, 51);
       <rect>
        <x>-20</x>
        <y>-90</y>
-       <width>421</width>
+       <width>411</width>
        <height>201</height>
       </rect>
      </property>
@@ -103,12 +97,85 @@ background-color: rgb(1, 55, 51);
     </widget>
    </widget>
   </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>-80</x>
+     <y>190</y>
+     <width>301</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../Downloads/Design sem nome (13).png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;Georgia&quot;;
+color: white;
+background-color: none;</string>
+   </property>
+   <property name="text">
+    <string>Treino em casa</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>310</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;Georgia&quot;;
+color: white;
+background-color: none;</string>
+   </property>
+   <property name="text">
+    <string>Suplementos</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>530</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;Georgia&quot;;
+color: white;
+background-color: none;</string>
+   </property>
+   <property name="text">
+    <string>Exercicios</string>
+   </property>
+  </widget>
   <widget class="QFrame" name="barra">
    <property name="geometry">
     <rect>
-     <x>0</x>
+     <x>-10</x>
      <y>750</y>
-     <width>411</width>
+     <width>401</width>
      <height>91</height>
     </rect>
    </property>
@@ -132,7 +199,7 @@ background-color: rgb(1, 55, 51);
    <widget class="QPushButton" name="config">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>200</x>
       <y>10</y>
       <width>81</width>
       <height>81</height>
@@ -197,10 +264,10 @@ border:none;
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="perfilbot">
+   <widget class="QPushButton" name="perfil">
     <property name="geometry">
      <rect>
-      <x>300</x>
+      <x>290</x>
       <y>10</y>
       <width>81</width>
       <height>81</height>
@@ -266,189 +333,114 @@ border:none;
     </property>
    </widget>
   </widget>
-  <widget class="QLabel" name="label_7">
+  <widget class="QPushButton" name="treinoemcasa">
    <property name="geometry">
     <rect>
-     <x>-100</x>
-     <y>380</y>
-     <width>301</width>
-     <height>451</height>
+     <x>40</x>
+     <y>130</y>
+     <width>281</width>
+     <height>191</height>
     </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap>../Downloads/Design sem nome (14).png</pixmap>
-   </property>
-   <property name="scaledContents">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>90</x>
-     <y>120</y>
-     <width>200</width>
-     <height>200</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>200</width>
-     <height>200</height>
-    </size>
-   </property>
-   <property name="maximumSize">
-    <size>
-     <width>200</width>
-     <height>200</height>
-    </size>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap>../Downloads/Design sem nome (6).png</pixmap>
-   </property>
-   <property name="scaledContents">
-    <bool>true</bool>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QTableWidget" name="tabela">
-   <property name="geometry">
-    <rect>
-     <x>50</x>
-     <y>400</y>
-     <width>302</width>
-     <height>200</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>302</width>
-     <height>200</height>
-    </size>
-   </property>
-   <property name="maximumSize">
-    <size>
-     <width>302</width>
-     <height>200</height>
-    </size>
    </property>
    <property name="styleSheet">
-    <string notr="true">QHeaderView::section{
- background-color: #12867F; 
-}
-
-#tabela{
-background-color: #0A5B56;
-}</string>
-   </property>
-   <column>
-    <property name="text">
-     <string>Altura</string>
-    </property>
-    <property name="font">
-     <font>
-      <family>Georgia</family>
-      <pointsize>13</pointsize>
-     </font>
-    </property>
-    <property name="textAlignment">
-     <set>AlignCenter</set>
-    </property>
-    <property name="foreground">
-     <brush brushstyle="SolidPattern">
-      <color alpha="255">
-       <red>255</red>
-       <green>221</green>
-       <blue>166</blue>
-      </color>
-     </brush>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>Peso</string>
-    </property>
-    <property name="whatsThis">
-     <string/>
-    </property>
-    <property name="font">
-     <font>
-      <family>Georgia</family>
-      <pointsize>12</pointsize>
-      <strikeout>false</strikeout>
-      <stylestrategy>PreferDefault</stylestrategy>
-     </font>
-    </property>
-    <property name="textAlignment">
-     <set>AlignCenter</set>
-    </property>
-    <property name="foreground">
-     <brush brushstyle="SolidPattern">
-      <color alpha="255">
-       <red>255</red>
-       <green>221</green>
-       <blue>166</blue>
-      </color>
-     </brush>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>Gordura</string>
-    </property>
-    <property name="font">
-     <font>
-      <family>Georgia</family>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-    <property name="textAlignment">
-     <set>AlignCenter</set>
-    </property>
-    <property name="foreground">
-     <brush brushstyle="SolidPattern">
-      <color alpha="255">
-       <red>255</red>
-       <green>221</green>
-       <blue>166</blue>
-      </color>
-     </brush>
-    </property>
-   </column>
-  </widget>
-  <widget class="QLabel" name="label_8">
-   <property name="geometry">
-    <rect>
-     <x>190</x>
-     <y>380</y>
-     <width>301</width>
-     <height>451</height>
-    </rect>
+    <string notr="true">
+background-color: transparent ;</string>
    </property>
    <property name="text">
-    <string/>
+    <string notr="true"/>
    </property>
-   <property name="pixmap">
-    <pixmap>../../../Downloads/Design sem nome (1).png</pixmap>
+   <property name="icon">
+    <iconset>
+     <normaloff>../Downloads/treino em casa (1).png</normaloff>../Downloads/treino em casa (1).png</iconset>
    </property>
-   <property name="scaledContents">
+   <property name="iconSize">
+    <size>
+     <width>290</width>
+     <height>200</height>
+    </size>
+   </property>
+   <property name="checkable">
     <bool>true</bool>
    </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
   </widget>
-  <zorder>label_8</zorder>
-  <zorder>label_7</zorder>
-  <zorder>titulo</zorder>
-  <zorder>barra</zorder>
-  <zorder>label</zorder>
-  <zorder>tabela</zorder>
+  <widget class="QPushButton" name="suplementos">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>340</y>
+     <width>291</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color: transparent ;</string>
+   </property>
+   <property name="text">
+    <string notr="true"/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../Downloads/treino em casa (2) (1).png</normaloff>../Downloads/treino em casa (2) (1).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>290</width>
+     <height>200</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exercicios">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>560</y>
+     <width>291</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color: transparent ;</string>
+   </property>
+   <property name="text">
+    <string notr="true"/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../Downloads/treino em casa (3).png</normaloff>../Downloads/treino em casa (3).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>290</width>
+     <height>200</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

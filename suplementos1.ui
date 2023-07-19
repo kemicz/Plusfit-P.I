@@ -44,10 +44,10 @@
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>0</x>
+       <x>-20</x>
        <y>0</y>
-       <width>371</width>
-       <height>831</height>
+       <width>401</width>
+       <height>861</height>
       </rect>
      </property>
      <property name="text">
@@ -275,6 +275,169 @@ background-color: transparent ;</string>
      <property name="default">
       <bool>false</bool>
      </property>
+    </widget>
+    <widget class="QFrame" name="barra">
+     <property name="geometry">
+      <rect>
+       <x>-10</x>
+       <y>740</y>
+       <width>401</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>81</width>
+       <height>81</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#barra{
+background-color: rgb(1, 55, 51);
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="config">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>10</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>81</width>
+        <height>81</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#menu{
+border:none;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../Downloads/config.png</normaloff>../Downloads/config.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>81</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="menu_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>81</width>
+        <height>81</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#menu{
+border:none;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../Downloads/menu.png</normaloff>../Downloads/menu.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>81</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="perfil">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>10</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>81</width>
+        <height>81</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#menu{
+border:none;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../Downloads/perfil.png</normaloff>../Downloads/perfil.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>81</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="treino">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>10</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>81</width>
+        <height>81</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#menu{
+border:none;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../Downloads/treino.png</normaloff>../Downloads/treino.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>81</height>
+       </size>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>

@@ -104,7 +104,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../Downloads/carol (1).png</pixmap>
+     <pixmap>carol (1).png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -123,7 +123,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../Downloads/Emi (1).png</pixmap>
+     <pixmap>Emi (1).png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -142,7 +142,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../Downloads/Amanda (2).png</pixmap>
+     <pixmap>Amanda (2).png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -300,7 +300,7 @@ font: 8pt &quot;Georgia&quot;;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../Downloads/treinocasa_logo (1).png</pixmap>
+     <pixmap>treinocasa_logo (1).png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>false</bool>
@@ -324,7 +324,7 @@ font: 8pt &quot;Georgia&quot;;</string>
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
-    <widget class="QPushButton" name="pushButton">
+    <widget class="QPushButton" name="menu_4">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -353,7 +353,7 @@ font: 8pt &quot;Georgia&quot;;</string>
       </size>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_2">
+    <widget class="QPushButton" name="treino">
      <property name="geometry">
       <rect>
        <x>100</x>
@@ -382,7 +382,7 @@ font: 8pt &quot;Georgia&quot;;</string>
       </size>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_3">
+    <widget class="QPushButton" name="config">
      <property name="geometry">
       <rect>
        <x>200</x>
@@ -411,7 +411,7 @@ font: 8pt &quot;Georgia&quot;;</string>
       </size>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_4">
+    <widget class="QPushButton" name="perfil">
      <property name="geometry">
       <rect>
        <x>300</x>
