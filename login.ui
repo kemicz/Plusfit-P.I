@@ -187,7 +187,7 @@ font: 12pt &quot;Georgia&quot;;</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>login-imagem.png</pixmap>
+    <pixmap>fotos/login-imagem.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -206,7 +206,7 @@ font: 12pt &quot;Georgia&quot;;</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>login-imagem3.png</pixmap>
+    <pixmap>../Desktop/fotos/login-imagem3.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -240,7 +240,7 @@ font: 12pt &quot;Georgia&quot;;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>login-imagem2.png</pixmap>
+     <pixmap>fotos/login-imagem2.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>

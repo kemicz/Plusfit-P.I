@@ -104,7 +104,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>carol (1).png</pixmap>
+     <pixmap>fotos/carol (1).png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -123,7 +123,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>Emi (1).png</pixmap>
+     <pixmap>fotos/Emi (1).png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -142,7 +142,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>Amanda (2).png</pixmap>
+     <pixmap>fotos/Amanda (2).png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -300,7 +300,7 @@ font: 8pt &quot;Georgia&quot;;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>treinocasa_logo (1).png</pixmap>
+     <pixmap>fotos/treinocasa_logo (1).png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>false</bool>

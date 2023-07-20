@@ -33,7 +33,7 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>0</y>
+      <y>-10</y>
       <width>390</width>
       <height>844</height>
      </rect>
@@ -329,7 +329,7 @@ border: 0;
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>../Downloads/cadastro logo.png</pixmap>
+      <pixmap>fotos/cadastro logo.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -348,7 +348,7 @@ border: 0;
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>../Downloads/coluna verde (1).png</pixmap>
+      <pixmap>fotos/coluna_verde.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>

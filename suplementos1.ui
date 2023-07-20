@@ -29,10 +29,10 @@
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>0</x>
       <y>-10</y>
-      <width>381</width>
-      <height>851</height>
+      <width>391</width>
+      <height>861</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -41,25 +41,6 @@
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
-    <widget class="QLabel" name="label">
-     <property name="geometry">
-      <rect>
-       <x>-20</x>
-       <y>0</y>
-       <width>401</width>
-       <height>861</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../Downloads/planner (2).png</pixmap>
-     </property>
-     <property name="scaledContents">
-      <bool>true</bool>
-     </property>
-    </widget>
     <widget class="QPushButton" name="bcaa">
      <property name="geometry">
       <rect>
@@ -222,7 +203,7 @@ background-color: transparent ;</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../Downloads/L-Arginina.png</normaloff>../Downloads/L-Arginina.png</iconset>
+       <normaloff>fotos/L-Arginina.png</normaloff>fotos/L-Arginina.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -258,7 +239,7 @@ background-color: transparent ;</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../Downloads/glutamia.png</normaloff>../Downloads/glutamia.png</iconset>
+       <normaloff>fotos/omega3.png</normaloff>fotos/omega3.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -276,11 +257,30 @@ background-color: transparent ;</string>
       <bool>false</bool>
      </property>
     </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>411</width>
+       <height>861</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>fotos/planner (2).png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
     <widget class="QFrame" name="barra">
      <property name="geometry">
       <rect>
-       <x>-10</x>
-       <y>740</y>
+       <x>0</x>
+       <y>760</y>
        <width>401</width>
        <height>91</height>
       </rect>
@@ -327,7 +327,7 @@ border:none;
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../Downloads/config.png</normaloff>../Downloads/config.png</iconset>
+        <normaloff>fotos/config.png</normaloff>fotos/config.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -361,7 +361,7 @@ border:none;
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../Downloads/menu.png</normaloff>../Downloads/menu.png</iconset>
+        <normaloff>fotos/menu.png</normaloff>fotos/menu.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -395,7 +395,7 @@ border:none;
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../Downloads/perfil.png</normaloff>../Downloads/perfil.png</iconset>
+        <normaloff>fotos/perfil.png</normaloff>fotos/perfil.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -429,7 +429,7 @@ border:none;
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../Downloads/treino.png</normaloff>../Downloads/treino.png</iconset>
+        <normaloff>fotos/treino.png</normaloff>fotos/treino.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -439,9 +439,16 @@ border:none;
       </property>
      </widget>
     </widget>
+    <zorder>label</zorder>
+    <zorder>bcaa</zorder>
+    <zorder>whey</zorder>
+    <zorder>glutamina</zorder>
+    <zorder>creatina</zorder>
+    <zorder>l_arginina</zorder>
+    <zorder>omega3</zorder>
+    <zorder>barra</zorder>
    </widget>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>

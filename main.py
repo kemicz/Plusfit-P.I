@@ -89,6 +89,22 @@ def exercicio():
     tela5.close()
     tela7.show()
 
+def menutop():
+    tela5.close()
+    tela5.show()
+
+def perfiltop():
+    tela5.close()
+    tela4.show()
+
+def treinotop():
+    tela5.close()
+    tela4.show()
+
+# def configtop():
+#     tela5.close()
+#     tela6.show()
+
 
 
 app = QtWidgets.QApplication([])
@@ -128,6 +144,10 @@ tela4.perfilbot.clicked.connect(perfilper) # botão perfil
 tela5.treinoemcasa.clicked.connect(treinoemcasa)
 tela5.suplementos.clicked.connect(suplementos)
 tela5.exercicios.clicked.connect(exercicio)
+tela5.menu_4.clicked.connect(menutop)
+tela5.perfil.clicked.connect(perfiltop) # botão 
+tela5.treino.clicked.connect(treinotop)  
+#tela5.config.clicked.connect(configtop)
 
-tela1.show()
+tela3.show()
 app.exec()
