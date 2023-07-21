@@ -187,5 +187,5 @@ tela7.perfil.clicked.connect(perfilpagtr) # botão
 tela7.treino.clicked.connect(treinopagtr)  
 #tela5.config.clicked.connect(configpagtr)
 
-tela1.show()
+tela7.show()
 app.exec()
