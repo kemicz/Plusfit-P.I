@@ -193,13 +193,13 @@ tela5 = uic.loadUi("topicos.ui")
 # tela6 = uic.loadUi("config.ui")
 tela7 = uic.loadUi("pagina_de_treino.ui")
 
-tela.cadastrar.clicked.connect(cadastrar)
+tela.cadastrar.clicked.connect(cadastro)
 tela.voltaplogin.clicked.connect(voltaplogin)
 
 tela1.entrar.clicked.connect(entrar)
-tela1.cadastrar.clicked.connect(logincadastro)
+tela1.cadastrarlog.clicked.connect(logincadastro)
 tela1.entrar.clicked.connect(tela_principal)
-
+ 
 tela3.l_arginina.clicked.connect(larginina)
 tela3.bcaa.clicked.connect(bcaa)
 tela3.whey.clicked.connect(whey)
@@ -234,5 +234,5 @@ tela7.perfil.clicked.connect(perfilpagtr) # botão
 tela7.treino.clicked.connect(treinopagtr)  
 #tela5.config.clicked.connect(configpagtr)
 
-tela7.show()
+tela1.show()
 app.exec()
