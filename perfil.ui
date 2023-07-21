@@ -61,7 +61,7 @@ background-color: rgb(1, 55, 51);
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Downloads/treino em casa (2) (2).png</pixmap>
+     <pixmap>fotos/treino em casa (2) (2).png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -95,7 +95,7 @@ background-color: rgb(1, 55, 51);
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>../Downloads/topicos1.png</pixmap>
+      <pixmap>fotos/topicos1.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -154,7 +154,7 @@ border:none;
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../Downloads/config.png</normaloff>../Downloads/config.png</iconset>
+      <normaloff>fotos/config.png</normaloff>fotos/config.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -188,7 +188,7 @@ border:none;
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../Downloads/menu.png</normaloff>../Downloads/menu.png</iconset>
+      <normaloff>fotos/menu.png</normaloff>fotos/menu.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -222,7 +222,7 @@ border:none;
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../Downloads/perfil.png</normaloff>../Downloads/perfil.png</iconset>
+      <normaloff>fotos/perfil.png</normaloff>fotos/perfil.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -256,7 +256,7 @@ border:none;
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../Downloads/treino.png</normaloff>../Downloads/treino.png</iconset>
+      <normaloff>fotos/treino.png</normaloff>fotos/treino.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -310,7 +310,7 @@ border:none;
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../Downloads/logoperfil.png</pixmap>
+    <pixmap>fotos/logoperfil.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>

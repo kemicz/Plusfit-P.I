@@ -89,7 +89,7 @@ background-color: rgb(1, 55, 51);
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>../Downloads/topicos1.png</pixmap>
+      <pixmap>fotos/topicos1.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -110,7 +110,7 @@ background-color: rgb(1, 55, 51);
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../Downloads/fundomenu.png</pixmap>
+    <pixmap>fotos/fundomenu.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -173,7 +173,7 @@ background-color: none;</string>
   <widget class="QFrame" name="barra">
    <property name="geometry">
     <rect>
-     <x>-10</x>
+     <x>0</x>
      <y>750</y>
      <width>401</width>
      <height>91</height>
@@ -221,7 +221,7 @@ border:none;
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../Downloads/config.png</normaloff>../Downloads/config.png</iconset>
+      <normaloff>fotos/config.png</normaloff>fotos/config.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -255,7 +255,7 @@ border:none;
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../Downloads/menu.png</normaloff>../Downloads/menu.png</iconset>
+      <normaloff>fotos/menu.png</normaloff>fotos/menu.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -289,7 +289,7 @@ border:none;
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../Downloads/perfil.png</normaloff>../Downloads/perfil.png</iconset>
+      <normaloff>fotos/perfil.png</normaloff>fotos/perfil.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -323,7 +323,7 @@ border:none;
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../Downloads/treino.png</normaloff>../Downloads/treino.png</iconset>
+      <normaloff>fotos/treino.png</normaloff>fotos/treino.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -351,7 +351,7 @@ background-color: transparent ;</string>
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>../Downloads/treino em casa (1).png</normaloff>../Downloads/treino em casa (1).png</iconset>
+     <normaloff>fotos/treino em casa (1).png</normaloff>fotos/treino em casa (1).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -387,7 +387,7 @@ background-color: transparent ;</string>
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>../Downloads/treino em casa (2) (1).png</normaloff>../Downloads/treino em casa (2) (1).png</iconset>
+     <normaloff>fotos/treino em casa (2) (1).png</normaloff>fotos/treino em casa (2) (1).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -423,7 +423,7 @@ background-color: transparent ;</string>
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>../Downloads/treino em casa (3).png</normaloff>../Downloads/treino em casa (3).png</iconset>
+     <normaloff>fotos/treino em casa (3).png</normaloff>fotos/treino em casa (3).png</iconset>
    </property>
    <property name="iconSize">
     <size>

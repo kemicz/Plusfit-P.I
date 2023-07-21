@@ -187,7 +187,7 @@ font: 12pt &quot;Georgia&quot;;</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>login-imagem.png</pixmap>
+    <pixmap>fotos/login-imagem.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -206,7 +206,7 @@ font: 12pt &quot;Georgia&quot;;</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>login-imagem3.png</pixmap>
+    <pixmap>../Desktop/fotos/login-imagem3.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -215,8 +215,8 @@ font: 12pt &quot;Georgia&quot;;</string>
   <widget class="QFrame" name="frame_4">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>570</y>
+     <x>20</x>
+     <y>590</y>
      <width>341</width>
      <height>81</height>
     </rect>
@@ -230,8 +230,8 @@ font: 12pt &quot;Georgia&quot;;</string>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>0</y>
+      <x>150</x>
+      <y>20</y>
       <width>61</width>
       <height>61</height>
      </rect>
@@ -240,7 +240,7 @@ font: 12pt &quot;Georgia&quot;;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>login-imagem2.png</pixmap>
+     <pixmap>fotos/login-imagem2.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -249,8 +249,8 @@ font: 12pt &quot;Georgia&quot;;</string>
    <widget class="QPushButton" name="cadastrarlog">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>20</y>
+      <x>140</x>
+      <y>0</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -264,28 +264,6 @@ font: 12pt &quot;Georgia&quot;;</string>
     </property>
     <property name="text">
      <string>Cadastrar</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="esquecisenha">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>20</y>
-      <width>111</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">#esquecisenha{
-	font: 9pt &quot;Georgia&quot;;
-	border:none;
-	color:#61B6A7;
-}
-
-</string>
-    </property>
-    <property name="text">
-     <string>Esqueci a senha</string>
     </property>
    </widget>
   </widget>

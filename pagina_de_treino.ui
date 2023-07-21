@@ -95,7 +95,7 @@ border:none;
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Downloads/fundo pagina de treino-1 (1).png</pixmap>
+     <pixmap>fotos/fundo pagina de treino-1 (1).png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>false</bool>
@@ -142,7 +142,7 @@ border:none;
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Downloads/listra treino.png</pixmap>
+     <pixmap>fotos/listra treino.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -207,7 +207,7 @@ border:none;
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>../Downloads/listra_treino.png</pixmap>
+      <pixmap>fotos/listra_treino.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>false</bool>
@@ -242,7 +242,7 @@ border:none;
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>../Downloads/fundo pagina de treino-1 (1) (2).png</pixmap>
+      <pixmap>fotos/fundo pagina de treino-1 (1) (2).png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -267,7 +267,7 @@ border:none;
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../Downloads/menu.png</normaloff>../Downloads/menu.png</iconset>
+       <normaloff>fotos/menu.png</normaloff>fotos/menu.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -295,7 +295,7 @@ border:none;
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../Downloads/treino.png</normaloff>../Downloads/treino.png</iconset>
+       <normaloff>fotos/treino.png</normaloff>fotos/treino.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -323,7 +323,7 @@ border:none;
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../Downloads/config.png</normaloff>../Downloads/config.png</iconset>
+       <normaloff>fotos/config.png</normaloff>fotos/config.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -342,7 +342,7 @@ border:none;
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">#botaoperfil{
+      <string notr="true">#perfil{
 border:none;
 }</string>
      </property>
@@ -351,7 +351,7 @@ border:none;
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../Downloads/perfil.png</normaloff>../Downloads/perfil.png</iconset>
+       <normaloff>fotos/perfil.png</normaloff>fotos/perfil.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -374,7 +374,7 @@ border:none;
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../Downloads/hipertrofia.webp</normaloff>../Downloads/hipertrofia.webp</iconset>
+       <normaloff>fotos/hipertrofia.webp</normaloff>fotos/hipertrofia.webp</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -397,7 +397,7 @@ border:none;
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../Downloads/força.webp</normaloff>../Downloads/força.webp</iconset>
+       <normaloff>fotos/força.webp</normaloff>fotos/força.webp</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -420,7 +420,7 @@ border:none;
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../Downloads/definição.jpeg</normaloff>../Downloads/definição.jpeg</iconset>
+       <normaloff>fotos/definição.jpeg</normaloff>fotos/definição.jpeg</iconset>
      </property>
      <property name="iconSize">
       <size>
