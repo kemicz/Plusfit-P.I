@@ -1,10 +1,56 @@
 from PyQt5 import uic, QtWidgets
 from PyQt5.QtWidgets import QMessageBox
 import webbrowser
+import mysql.connector
 
-def castrar():
-    tela1.close()
+banco=  mysql.connector.connect(
+   host= 'localhost',
+   user= 'root',
+   password= '',
+   database= 'planusfit',
+)
+
+def cadastro():
+    cadastrar= tela.nome.text() and tela.sobrenome.text() and tela.email.text and tela.senha.text and tela.peso.text and tela.altura.text
+    if cadastrar == '':
+        QMessageBox.about(tela, 'Atenção', 'Preencha os campos solicitados.')
+
+    else:
+        QMessageBox.about(tela, 'Salvo com sucesso', 'Informações registradas')
+        tela.close()
+        tela1.show()
+    nome= tela.nome.text()
+    sobrenome= tela.sobrenome.text()
+    email= tela.email.text()
+    senha= tela.senha.text()
+    peso= tela.peso.text()
+    altura= tela.altura.text()
+
+    cursor= banco.cursor()
+    sql= "INSERT INTO cadastro (nome, sobrenome, email, senha, peso, altura) VALUES (%s, %s, %s, %s, %s, %s)"
+    colunas= (str(nome), str(sobrenome), str(email), str(senha), str(peso), str(altura))
+    cursor.execute(sql, colunas)
+    banco.commit()
+
+
+
+def entrar():
+    login_input = tela1.loginemail.text()
+    senha_input = tela1.loginsenha.text()
+    sql = "select senha from cadastro where email = '{}'".format(login_input)
+    cursor = banco.cursor()
+    cursor.execute(sql)
+    senha_banco = cursor.fetchall()
+
+    if login_input != '' and senha_input != '':
+        if senha_input == senha_banco[0][0]:
+            QMessageBox.about(tela, "Bem-vindo(a)", "Seja Bem-vindo(a) ao PlanusFit.")
+            #TELA ´PRINCIPAL AQUI
+            tela1.close()
+
+def logincadastro():
     tela.show()
+    tela1.close()
 
 def voltaplogin():
     tela.close()
@@ -133,7 +179,7 @@ def treinopagtr():
 #     tela7.close()
 #     tela6.show()
 
-def entrar():
+def tela_principal():
     tela1.close()
     tela4.show()
 
@@ -150,8 +196,9 @@ tela7 = uic.loadUi("pagina_de_treino.ui")
 tela.cadastrar.clicked.connect(cadastrar)
 tela.voltaplogin.clicked.connect(voltaplogin)
 
-tela1.cadastrarlog.clicked.connect(castrar)
 tela1.entrar.clicked.connect(entrar)
+tela1.cadastrar.clicked.connect(logincadastro)
+tela1.entrar.clicked.connect(tela_principal)
 
 tela3.l_arginina.clicked.connect(larginina)
 tela3.bcaa.clicked.connect(bcaa)
