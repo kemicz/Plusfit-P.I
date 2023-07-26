@@ -1,52 +1,53 @@
 from PyQt5 import uic, QtWidgets
 from PyQt5.QtWidgets import QMessageBox
 import webbrowser
-# import mysql.connector
+import mysql.connector
 
-# banco=  mysql.connector.connect(
-#    host= 'localhost',
-#    user= 'root',
-#    password= '',
-#    database= 'planusfit',
-# )
+banco=  mysql.connector.connect(
+    host= 'localhost',
+    user= 'root',
+    password= '',
+    database= 'planusfit',
+ )
 
-# def cadastro():
-#     cadastrar= tela.nome.text() and tela.sobrenome.text() and tela.email.text and tela.senha.text and tela.peso.text and tela.altura.text
-#     if cadastrar == '':
-#         QMessageBox.about(tela, 'Atenção', 'Preencha os campos solicitados.')
+def cadastro():
+     cadastrar= tela.nome.text() and tela.sobrenome.text() and tela.email.text and tela.senha.text and tela.peso.text and tela.altura.text and tela.gordura.text
+     if cadastrar == '':
+         QMessageBox.about(tela, 'Atenção', 'Preencha os campos solicitados.')
 
-#     else:
-#         QMessageBox.about(tela, 'Salvo com sucesso', 'Informações registradas')
-#         tela.close()
-#         tela1.show()
-#     nome= tela.nome.text()
-#     sobrenome= tela.sobrenome.text()
-#     email= tela.email.text()
-#     senha= tela.senha.text()
-#     peso= tela.peso.text()
-#     altura= tela.altura.text()
+     else:
+         QMessageBox.about(tela, 'Salvo com sucesso', 'Informações registradas')
+         tela.close()
+         tela1.show()
+     nome= tela.nome.text()
+     sobrenome= tela.sobrenome.text()
+     email= tela.email.text()
+     senha= tela.senha.text()
+     peso= tela.peso.text()
+     altura= tela.altura.text()
+     gordura= tela.gordura.text()
 
-#     cursor= banco.cursor()
-#     sql= "INSERT INTO cadastro (nome, sobrenome, email, senha, peso, altura) VALUES (%s, %s, %s, %s, %s, %s)"
-#     colunas= (str(nome), str(sobrenome), str(email), str(senha), str(peso), str(altura))
-#     cursor.execute(sql, colunas)
-#     banco.commit()
+     cursor= banco.cursor()
+     sql= "INSERT INTO cadastro_1 (nome, sobrenome, email, senha, peso, altura) VALUES (%s, %s, %s, %s, %s, %s, %s)"
+     colunas= (str(nome), str(sobrenome), str(email), str(senha), str(peso), str(altura), str(gordura))
+     cursor.execute(sql, colunas)
+     banco.commit()
 
 
 
-# def entrar():
-#     login_input = tela1.loginemail.text()
-#     senha_input = tela1.loginsenha.text()
-#     sql = "select senha from cadastro where email = '{}'".format(login_input)
-#     cursor = banco.cursor()
-#     cursor.execute(sql)
-#     senha_banco = cursor.fetchall()
+def entrar():
+     login_input = tela1.loginemail.text()
+     senha_input = tela1.loginsenha.text()
+     sql = "select senha from cadastro_1 where email = '{}'".format(login_input)
+     cursor = banco.cursor()
+     cursor.execute(sql)
+     senha_banco = cursor.fetchall()
 
-#     if login_input != '' and senha_input != '':
-#         if senha_input == senha_banco[0][0]:
-#             QMessageBox.about(tela, "Bem-vindo(a)", "Seja Bem-vindo(a) ao PlanusFit.")
-#             #TELA ´PRINCIPAL AQUI
-#             tela1.close()
+     if login_input != '' and senha_input != '':
+         if senha_input == senha_banco[0][0]:
+             QMessageBox.about(tela, "Bem-vindo(a)", "Seja Bem-vindo(a) ao PlanusFit.")
+             #TELA ´PRINCIPAL AQUI
+             tela1.close()
 
 def logincadastro():
     tela.show()
@@ -86,6 +87,15 @@ def whey():
 
 ########################################################
 
+
+def carolborba():
+    webbrowser.open("https://www.youtube.com/@carolborba")
+
+def emiwong():
+    webbrowser.open("https://www.youtube.com/@emiwong")
+
+def amandabiuger():
+    webbrowser.open("https://www.youtube.com/@amandabiuger")
 
 def menutr():
     tela2.close()
