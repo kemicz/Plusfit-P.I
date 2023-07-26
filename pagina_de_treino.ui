@@ -6,82 +6,26 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>390</width>
-    <height>844</height>
+    <width>462</width>
+    <height>901</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>390</width>
-    <height>844</height>
+    <width>462</width>
+    <height>901</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>390</width>
-    <height>844</height>
+    <width>462</width>
+    <height>901</height>
    </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton_2">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>850</y>
-      <width>75</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">#pushButton_2{
-border:none;
-}</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../Downloads/icones de navegação/ICONE-MENU.png</normaloff>../Downloads/icones de navegação/ICONE-MENU.png</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>80</width>
-      <height>80</height>
-     </size>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_3">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>850</y>
-      <width>75</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">#pushButton_2{
-border:none;
-}</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../Downloads/icones de navegação/ICONE-TREINO.png</normaloff>../Downloads/icones de navegação/ICONE-TREINO.png</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>80</width>
-      <height>80</height>
-     </size>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
@@ -129,25 +73,6 @@ border:none;
      </size>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>130</y>
-      <width>391</width>
-      <height>101</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>fotos/listra treino.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
@@ -180,9 +105,9 @@ border:none;
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>-20</y>
-      <width>390</width>
-      <height>871</height>
+      <y>-10</y>
+      <width>462</width>
+      <height>921</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -198,16 +123,16 @@ border:none;
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>30</y>
-       <width>391</width>
-       <height>81</height>
+       <y>0</y>
+       <width>461</width>
+       <height>111</height>
       </rect>
      </property>
      <property name="text">
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>fotos/listra_treino.png</pixmap>
+      <pixmap>fotos/treinos.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>false</bool>
@@ -216,10 +141,10 @@ border:none;
     <widget class="QLabel" name="label_4">
      <property name="geometry">
       <rect>
-       <x>-10</x>
-       <y>760</y>
-       <width>401</width>
-       <height>101</height>
+       <x>0</x>
+       <y>810</y>
+       <width>461</width>
+       <height>111</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -234,8 +159,8 @@ border:none;
       <rect>
        <x>40</x>
        <y>100</y>
-       <width>351</width>
-       <height>651</height>
+       <width>421</width>
+       <height>701</height>
       </rect>
      </property>
      <property name="text">
@@ -251,8 +176,8 @@ border:none;
     <widget class="QPushButton" name="menu_4">
      <property name="geometry">
       <rect>
-       <x>0</x>
-       <y>770</y>
+       <x>10</x>
+       <y>820</y>
        <width>81</width>
        <height>81</height>
       </rect>
@@ -279,8 +204,8 @@ border:none;
     <widget class="QPushButton" name="treino">
      <property name="geometry">
       <rect>
-       <x>100</x>
-       <y>770</y>
+       <x>120</x>
+       <y>820</y>
        <width>81</width>
        <height>81</height>
       </rect>
@@ -307,8 +232,8 @@ border:none;
     <widget class="QPushButton" name="config">
      <property name="geometry">
       <rect>
-       <x>210</x>
-       <y>770</y>
+       <x>240</x>
+       <y>820</y>
        <width>81</width>
        <height>81</height>
       </rect>
@@ -335,8 +260,8 @@ border:none;
     <widget class="QPushButton" name="perfil">
      <property name="geometry">
       <rect>
-       <x>300</x>
-       <y>770</y>
+       <x>360</x>
+       <y>820</y>
        <width>81</width>
        <height>81</height>
       </rect>
@@ -360,34 +285,11 @@ border:none;
       </size>
      </property>
     </widget>
-    <widget class="QPushButton" name="butaohipertrofia">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>160</y>
-       <width>351</width>
-       <height>151</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="icon">
-      <iconset>
-       <normaloff>fotos/hipertrofia.webp</normaloff>fotos/hipertrofia.webp</iconset>
-     </property>
-     <property name="iconSize">
-      <size>
-       <width>450</width>
-       <height>300</height>
-      </size>
-     </property>
-    </widget>
     <widget class="QPushButton" name="butaoforca">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>380</y>
+       <x>50</x>
+       <y>160</y>
        <width>351</width>
        <height>161</height>
       </rect>
@@ -409,10 +311,10 @@ border:none;
     <widget class="QPushButton" name="butaodefinicao">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>610</y>
+       <x>60</x>
+       <y>620</y>
        <width>351</width>
-       <height>141</height>
+       <height>161</height>
       </rect>
      </property>
      <property name="text">
@@ -433,7 +335,7 @@ border:none;
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>120</y>
+       <y>340</y>
        <width>171</width>
        <height>31</height>
       </rect>
@@ -469,11 +371,11 @@ font-size: 15px;
       <string>Definição</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="forca">
+    <widget class="QPushButton" name="infos">
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>340</y>
+       <y>120</y>
        <width>151</width>
        <height>31</height>
       </rect>
@@ -486,7 +388,30 @@ font-size: 15px;
 }</string>
      </property>
      <property name="text">
-      <string>Força</string>
+      <string>Informações</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="butaohipertrofia">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>390</y>
+       <width>351</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>fotos/hipertrofia.webp</normaloff>fotos/hipertrofia.webp</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>450</width>
+       <height>300</height>
+      </size>
      </property>
     </widget>
     <zorder>label_4</zorder>
@@ -495,13 +420,13 @@ font-size: 15px;
     <zorder>treino</zorder>
     <zorder>config</zorder>
     <zorder>perfil</zorder>
-    <zorder>butaohipertrofia</zorder>
     <zorder>butaoforca</zorder>
     <zorder>butaodefinicao</zorder>
     <zorder>hipertrofia</zorder>
     <zorder>definicao</zorder>
-    <zorder>forca</zorder>
+    <zorder>infos</zorder>
     <zorder>label_3</zorder>
+    <zorder>butaohipertrofia</zorder>
    </widget>
   </widget>
  </widget>
