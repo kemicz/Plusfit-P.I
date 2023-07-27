@@ -201,6 +201,7 @@ def hipertrofia():
     tela7.close()
     tela20.show()
 
+    
 ########################################################
 
 def menudef():
@@ -505,6 +506,27 @@ def voltar_A_2():
     tela22.close()
     tela20.show()
 ############################################
+
+def menuainf():
+    tela23.close()
+    tela5.show()
+
+def perfilinf():
+    tela23.close()
+    tela4.show()
+
+def treinoinf():
+    tela23.close()
+    tela7.show()
+
+# def configinf():
+#     tela23.close()
+#     tela6.show()
+
+def infor():
+    tela23.show()
+    tela7.close()
+
 app = QtWidgets.QApplication([])
 tela = uic.loadUi("pagina_de_cadastro.ui")
 tela1 = uic.loadUi("login.ui")
@@ -528,6 +550,7 @@ tela18 = uic.loadUi("pagina de exercicios  B (2) Hipertrofia.ui")
 tela19 = uic.loadUi("pagina de exercicios  C (2) Hipertrofia.ui")
 tela20 = uic.loadUi("pagina_de_hipertrofia.ui")
 tela22 = uic.loadUi("pagina de exercicios A (2).ui")
+tela23 = uic.loadUi("pagina_de_informacoes.ui")
 # tela.cadastrar.clicked.connect(cadastro)
 tela.voltaplogin.clicked.connect(voltaplogin)
 
@@ -570,6 +593,7 @@ tela7.treino.clicked.connect(treinopagtr)
 #tela7.config.clicked.connect(configpagtr)
 tela7.definicao.clicked.connect(definicao)
 tela7.hipertrofia.clicked.connect(hipertrofia)
+tela7.inf.clicked.connect(infor)
 #
 tela8.menu_4.clicked.connect(menudef)
 tela8.perfil.clicked.connect(perfildef) # botão 
@@ -647,11 +671,16 @@ tela22.treino.clicked.connect(treinoa2)
 #tela22.config.clicked.connect(configa2)
 tela22.voltar_A_2.clicked.connect(voltar_A_2)
 
+tela23.menu_4.clicked.connect(menuainf)
+tela23.perfil.clicked.connect(perfilinf) # botão 
+tela23.treino.clicked.connect(treinoinf)  
+#tela23.config.clicked.connect(configinf)
+
 tela20.botaohiperA.clicked.connect(exercicioa1)
 tela20.botaohiperB.clicked.connect(botaohiperB)
 tela20.botaohiperC.clicked.connect(botaohiperC)
 tela20.botaohiperC_2.clicked.connect(botaohiperC_2)
 tela20.botaohiperA_2.clicked.connect(botaohiperA_2)
 tela20.botaohiperB_2.clicked.connect(botaohiperB_2)
-tela17.show()
+tela5.show()
 app.exec()
