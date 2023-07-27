@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>390</width>
-    <height>844</height>
+    <width>462</width>
+    <height>901</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -22,88 +22,13 @@
   <property name="styleSheet">
    <string notr="true">background-color: #00413D;</string>
   </property>
-  <widget class="QFrame" name="titulo">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>401</width>
-     <height>91</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">#titulo{
-background-color: rgb(1, 55, 51);
-}</string>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::StyledPanel</enum>
-   </property>
-   <property name="frameShadow">
-    <enum>QFrame::Raised</enum>
-   </property>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>80</x>
-      <y>-10</y>
-      <width>221</width>
-      <height>101</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../Desktop/fotos/titulo-topicos.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QFrame" name="frame_2">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>70</y>
-      <width>401</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
-    </property>
-    <widget class="QLabel" name="label_6">
-     <property name="geometry">
-      <rect>
-       <x>-20</x>
-       <y>-90</y>
-       <width>411</width>
-       <height>201</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>fotos/topicos1.png</pixmap>
-     </property>
-     <property name="scaledContents">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </widget>
-  </widget>
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>-80</x>
-     <y>190</y>
-     <width>301</width>
-     <height>451</height>
+     <x>220</x>
+     <y>170</y>
+     <width>361</width>
+     <height>551</height>
     </rect>
    </property>
    <property name="text">
@@ -119,15 +44,16 @@ background-color: rgb(1, 55, 51);
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>110</y>
+     <x>40</x>
+     <y>120</y>
      <width>141</width>
      <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">font: 75 14pt &quot;Georgia&quot;;
-color: white;
+font: 75 16pt &quot;Georgia&quot;;
+color: #FFDDA6;
 background-color: none;</string>
    </property>
    <property name="text">
@@ -138,14 +64,15 @@ background-color: none;</string>
    <property name="geometry">
     <rect>
      <x>40</x>
-     <y>310</y>
+     <y>340</y>
      <width>141</width>
      <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">font: 75 14pt &quot;Georgia&quot;;
-color: white;
+font: 75 16pt &quot;Georgia&quot;;
+color: #FFDDA6;
 background-color: none;</string>
    </property>
    <property name="text">
@@ -156,14 +83,14 @@ background-color: none;</string>
    <property name="geometry">
     <rect>
      <x>40</x>
-     <y>530</y>
+     <y>560</y>
      <width>141</width>
      <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 75 14pt &quot;Georgia&quot;;
-color: white;
+    <string notr="true">color: #FFDDA6;
+font: 75 16pt &quot;Georgia&quot;;
 background-color: none;</string>
    </property>
    <property name="text">
@@ -174,9 +101,9 @@ background-color: none;</string>
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>750</y>
-     <width>401</width>
-     <height>91</height>
+     <y>780</y>
+     <width>461</width>
+     <height>121</height>
     </rect>
    </property>
    <property name="minimumSize">
@@ -199,8 +126,8 @@ background-color: rgb(1, 55, 51);
    <widget class="QPushButton" name="config">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>10</y>
+      <x>250</x>
+      <y>20</y>
       <width>81</width>
       <height>81</height>
      </rect>
@@ -233,8 +160,8 @@ border:none;
    <widget class="QPushButton" name="menu_4">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>10</y>
+      <x>30</x>
+      <y>20</y>
       <width>81</width>
       <height>81</height>
      </rect>
@@ -267,8 +194,8 @@ border:none;
    <widget class="QPushButton" name="perfil">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>10</y>
+      <x>360</x>
+      <y>20</y>
       <width>81</width>
       <height>81</height>
      </rect>
@@ -301,8 +228,8 @@ border:none;
    <widget class="QPushButton" name="treino">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>10</y>
+      <x>140</x>
+      <y>20</y>
       <width>81</width>
       <height>81</height>
      </rect>
@@ -336,10 +263,10 @@ border:none;
   <widget class="QPushButton" name="treinoemcasa">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>130</y>
-     <width>281</width>
-     <height>191</height>
+     <x>50</x>
+     <y>160</y>
+     <width>291</width>
+     <height>161</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -372,10 +299,10 @@ background-color: transparent ;</string>
   <widget class="QPushButton" name="suplementos">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>340</y>
+     <x>50</x>
+     <y>390</y>
      <width>291</width>
-     <height>181</height>
+     <height>161</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -408,10 +335,10 @@ background-color: transparent ;</string>
   <widget class="QPushButton" name="exercicios">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>560</y>
+     <x>50</x>
+     <y>600</y>
      <width>291</width>
-     <height>181</height>
+     <height>171</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -439,6 +366,25 @@ background-color: transparent ;</string>
    </property>
    <property name="default">
     <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>463</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>fotos/topicos.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
    </property>
   </widget>
  </widget>
