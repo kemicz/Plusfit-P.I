@@ -6,20 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>390</width>
-    <height>844</height>
+    <width>462</width>
+    <height>901</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>390</width>
-    <height>844</height>
+    <width>462</width>
+    <height>901</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>390</width>
-    <height>844</height>
+    <width>462</width>
+    <height>901</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -30,8 +30,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>391</width>
-     <height>861</height>
+     <width>461</width>
+     <height>911</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -47,41 +47,9 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>190</y>
-      <width>391</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(10, 91, 86);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>380</y>
-      <width>391</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(10, 91, 86);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>560</y>
-      <width>391</width>
-      <height>91</height>
+      <y>160</y>
+      <width>461</width>
+      <height>131</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -95,9 +63,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>180</y>
-      <width>131</width>
-      <height>111</height>
+      <y>150</y>
+      <width>211</width>
+      <height>151</height>
      </rect>
     </property>
     <property name="text">
@@ -114,9 +82,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>370</y>
-      <width>131</width>
-      <height>111</height>
+      <y>350</y>
+      <width>211</width>
+      <height>151</height>
      </rect>
     </property>
     <property name="text">
@@ -133,9 +101,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>550</y>
-      <width>131</width>
-      <height>111</height>
+      <y>580</y>
+      <width>211</width>
+      <height>151</height>
      </rect>
     </property>
     <property name="text">
@@ -151,34 +119,34 @@
    <widget class="QLabel" name="label_14">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>210</y>
-      <width>121</width>
-      <height>21</height>
+      <x>230</x>
+      <y>190</y>
+      <width>161</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(10, 91, 86);
 color: rgb(255, 255, 255);
-font: 16pt &quot;Georgia&quot;;</string>
+font: 20pt &quot;Georgia&quot;;</string>
     </property>
     <property name="text">
-     <string>@carolborba</string>
+     <string>@CarolBorba</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_15">
     <property name="geometry">
      <rect>
-      <x>190</x>
+      <x>230</x>
       <y>390</y>
-      <width>121</width>
-      <height>31</height>
+      <width>151</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(10, 91, 86);
 color: rgb(255, 255, 255);
-font: 16pt &quot;Georgia&quot;;</string>
+font: 20pt &quot;Georgia&quot;;</string>
     </property>
     <property name="text">
      <string>@EmiWong</string>
@@ -187,16 +155,16 @@ font: 16pt &quot;Georgia&quot;;</string>
    <widget class="QLabel" name="label_16">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>570</y>
-      <width>171</width>
-      <height>31</height>
+      <x>230</x>
+      <y>620</y>
+      <width>211</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(10, 91, 86);
 color: rgb(255, 255, 255);
-font: 16pt &quot;Georgia&quot;;</string>
+font: 20pt &quot;Georgia&quot;;</string>
     </property>
     <property name="text">
      <string>@AmandaBiuger</string>
@@ -205,16 +173,16 @@ font: 16pt &quot;Georgia&quot;;</string>
    <widget class="QLabel" name="label_17">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>260</x>
       <y>240</y>
-      <width>91</width>
+      <width>161</width>
       <height>21</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(10, 91, 86);
 color: rgb(253, 226, 184);
-font: 8pt &quot;Georgia&quot;;</string>
+font: 16pt &quot;Georgia&quot;;</string>
     </property>
     <property name="text">
      <string>Acessar aulas -&gt;</string>
@@ -223,16 +191,16 @@ font: 8pt &quot;Georgia&quot;;</string>
    <widget class="QLabel" name="label_18">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>430</y>
-      <width>91</width>
+      <x>270</x>
+      <y>440</y>
+      <width>151</width>
       <height>21</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(10, 91, 86);
 color: rgb(253, 226, 184);
-font: 8pt &quot;Georgia&quot;;</string>
+font: 16pt &quot;Georgia&quot;;</string>
     </property>
     <property name="text">
      <string>Acessar aulas -&gt;</string>
@@ -241,16 +209,16 @@ font: 8pt &quot;Georgia&quot;;</string>
    <widget class="QLabel" name="label_19">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>610</y>
-      <width>91</width>
+      <x>270</x>
+      <y>670</y>
+      <width>161</width>
       <height>21</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(10, 91, 86);
 color: rgb(253, 226, 184);
-font: 8pt &quot;Georgia&quot;;</string>
+font: 16pt &quot;Georgia&quot;;</string>
     </property>
     <property name="text">
      <string>Acessar aulas -&gt;</string>
@@ -259,10 +227,10 @@ font: 8pt &quot;Georgia&quot;;</string>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>480</y>
-      <width>200</width>
-      <height>350</height>
+      <x>180</x>
+      <y>290</y>
+      <width>341</width>
+      <height>561</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -273,15 +241,15 @@ font: 8pt &quot;Georgia&quot;;</string>
     </property>
     <property name="maximumSize">
      <size>
-      <width>200</width>
-      <height>360</height>
+      <width>400</width>
+      <height>600</height>
      </size>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>desenho_treinocasa.png</pixmap>
+     <pixmap>fotos/fundotreinocasa.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -290,9 +258,9 @@ font: 8pt &quot;Georgia&quot;;</string>
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>-4</x>
-      <y>2</y>
-      <width>401</width>
+      <x>1</x>
+      <y>0</y>
+      <width>461</width>
       <height>101</height>
      </rect>
     </property>
@@ -300,7 +268,7 @@ font: 8pt &quot;Georgia&quot;;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>fotos/treinocasa_logo (1).png</pixmap>
+     <pixmap>fotos/treinocasa-titulo.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>false</bool>
@@ -309,10 +277,10 @@ font: 8pt &quot;Georgia&quot;;</string>
    <widget class="QFrame" name="frame_2">
     <property name="geometry">
      <rect>
-      <x>-1</x>
-      <y>739</y>
-      <width>391</width>
-      <height>101</height>
+      <x>0</x>
+      <y>780</y>
+      <width>461</width>
+      <height>111</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -327,8 +295,8 @@ font: 8pt &quot;Georgia&quot;;</string>
     <widget class="QPushButton" name="menu_4">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>10</y>
+       <x>20</x>
+       <y>20</y>
        <width>81</width>
        <height>81</height>
       </rect>
@@ -344,7 +312,7 @@ font: 8pt &quot;Georgia&quot;;</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../Desktop/fotos/menu.png</normaloff>../Desktop/fotos/menu.png</iconset>
+       <normaloff>fotos/menu.png</normaloff>fotos/menu.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -356,8 +324,8 @@ font: 8pt &quot;Georgia&quot;;</string>
     <widget class="QPushButton" name="treino">
      <property name="geometry">
       <rect>
-       <x>100</x>
-       <y>10</y>
+       <x>130</x>
+       <y>20</y>
        <width>81</width>
        <height>81</height>
       </rect>
@@ -373,7 +341,7 @@ font: 8pt &quot;Georgia&quot;;</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../Desktop/fotos/treino.png</normaloff>../Desktop/fotos/treino.png</iconset>
+       <normaloff>fotos/treino.png</normaloff>fotos/treino.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -385,8 +353,8 @@ font: 8pt &quot;Georgia&quot;;</string>
     <widget class="QPushButton" name="config">
      <property name="geometry">
       <rect>
-       <x>200</x>
-       <y>10</y>
+       <x>240</x>
+       <y>20</y>
        <width>81</width>
        <height>81</height>
       </rect>
@@ -402,7 +370,7 @@ font: 8pt &quot;Georgia&quot;;</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../Desktop/fotos/config.png</normaloff>../Desktop/fotos/config.png</iconset>
+       <normaloff>fotos/config.png</normaloff>fotos/config.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -414,8 +382,8 @@ font: 8pt &quot;Georgia&quot;;</string>
     <widget class="QPushButton" name="perfil">
      <property name="geometry">
       <rect>
-       <x>300</x>
-       <y>10</y>
+       <x>350</x>
+       <y>20</y>
        <width>81</width>
        <height>81</height>
       </rect>
@@ -437,7 +405,7 @@ font: 8pt &quot;Georgia&quot;;</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../Desktop/fotos/perfil.png</normaloff>../Desktop/fotos/perfil.png</iconset>
+       <normaloff>fotos/perfil.png</normaloff>fotos/perfil.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -447,16 +415,48 @@ font: 8pt &quot;Georgia&quot;;</string>
      </property>
     </widget>
    </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>600</y>
+      <width>461</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(10, 91, 86);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>370</y>
+      <width>461</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(10, 91, 86);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_4</zorder>
    <zorder>label_2</zorder>
-   <zorder>label_3</zorder>
    <zorder>label_5</zorder>
    <zorder>label_6</zorder>
    <zorder>label_14</zorder>
    <zorder>label_15</zorder>
    <zorder>label_17</zorder>
    <zorder>label_18</zorder>
-   <zorder>label</zorder>
-   <zorder>label_4</zorder>
    <zorder>label_13</zorder>
    <zorder>label_16</zorder>
    <zorder>label_19</zorder>
