@@ -447,6 +447,60 @@ font: 16pt &quot;Georgia&quot;;</string>
      <string/>
     </property>
    </widget>
+   <widget class="QToolButton" name="acessarcarol">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>240</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#acessarcarol{
+background-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="acessaremi">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>440</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#acessaremi{
+background-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="acessaramanda">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>670</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#acessaramanda{
+background-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
    <zorder>label</zorder>
    <zorder>label_8</zorder>
    <zorder>label_4</zorder>
@@ -462,6 +516,9 @@ font: 16pt &quot;Georgia&quot;;</string>
    <zorder>label_19</zorder>
    <zorder>label_7</zorder>
    <zorder>frame_2</zorder>
+   <zorder>acessarcarol</zorder>
+   <zorder>acessaremi</zorder>
+   <zorder>acessaramanda</zorder>
   </widget>
  </widget>
  <resources/>
