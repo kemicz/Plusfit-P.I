@@ -1,53 +1,53 @@
 from PyQt5 import uic, QtWidgets
 from PyQt5.QtWidgets import QMessageBox
 import webbrowser
-# import mysql.connector
+import mysql.connector
 
-# banco=  mysql.connector.connect(
-#     host= 'localhost',
-#     user= 'root',
-#     password= '',
-#     database= 'planusfit',
-#  )
+banco=  mysql.connector.connect(
+    host= 'localhost',
+    user= 'root',
+    password= '',
+    database= 'planusfit',
+ )
 
-# def cadastro():
-#      cadastrar= tela.nome.text() and tela.sobrenome.text() and tela.email.text and tela.senha.text and tela.peso.text and tela.altura.text and tela.gordura.text
-#      if cadastrar == '':
-#          QMessageBox.about(tela, 'Atenção', 'Preencha os campos solicitados.')
+def cadastro():
+     cadastrar= tela.nome.text() and tela.sobrenome.text() and tela.email.text and tela.senha.text and tela.peso.text and tela.altura.text and tela.gordura.text
+     if cadastrar == '':
+         QMessageBox.about(tela, 'Atenção', 'Preencha os campos solicitados.')
 
-#      else:
-#          QMessageBox.about(tela, 'Salvo com sucesso', 'Informações registradas')
-#          tela.close()
-#          tela1.show()
-#      nome= tela.nome.text()
-#      sobrenome= tela.sobrenome.text()
-#      email= tela.email.text()
-#      senha= tela.senha.text()
-#      peso= tela.peso.text()
-#      altura= tela.altura.text()
-#      gordura= tela.gordura.text()
+     else:
+         QMessageBox.about(tela, 'Salvo com sucesso', 'Informações registradas')
+         tela.close()
+         tela1.show()
+     nome= tela.nome.text()
+     sobrenome= tela.sobrenome.text()
+     email= tela.email.text()
+     senha= tela.senha.text()
+     peso= tela.peso.text()
+     altura= tela.altura.text()
+     gordura= tela.gordura.text()
 
-#      cursor= banco.cursor()
-#      sql= "INSERT INTO cadastro_1 (nome, sobrenome, email, senha, peso, altura) VALUES (%s, %s, %s, %s, %s, %s, %s)"
-#      colunas= (str(nome), str(sobrenome), str(email), str(senha), str(peso), str(altura), str(gordura))
-#      cursor.execute(sql, colunas)
-#      banco.commit()
+     cursor= banco.cursor()
+     sql= "INSERT INTO cadastro_1 (nome, sobrenome, email, senha, peso, altura) VALUES (%s, %s, %s, %s, %s, %s, %s)"
+     colunas= (str(nome), str(sobrenome), str(email), str(senha), str(peso), str(altura), str(gordura))
+     cursor.execute(sql, colunas)
+     banco.commit()
 
 
 
-# def entrar():
-#      login_input = tela1.loginemail.text()
-#      senha_input = tela1.loginsenha.text()
-#      sql = "select senha from cadastro_1 where email = '{}'".format(login_input)
-#      cursor = banco.cursor()
-#      cursor.execute(sql)
-#      senha_banco = cursor.fetchall()
+def entrar():
+     login_input = tela1.loginemail.text()
+     senha_input = tela1.loginsenha.text()
+     sql = "select senha from cadastro_1 where email = '{}'".format(login_input)
+     cursor = banco.cursor()
+     cursor.execute(sql)
+     senha_banco = cursor.fetchall()
 
-#      if login_input != '' and senha_input != '':
-#          if senha_input == senha_banco[0][0]:
-#              QMessageBox.about(tela, "Bem-vindo(a)", "Seja Bem-vindo(a) ao PlanusFit.")
-#              #TELA ´PRINCIPAL AQUI
-#              tela1.close()
+     if login_input != '' and senha_input != '':
+         if senha_input == senha_banco[0][0]:
+             QMessageBox.about(tela, "Bem-vindo(a)", "Seja Bem-vindo(a) ao PlanusFit.")
+             #TELA ´PRINCIPAL AQUI
+             tela1.close()
 
 def logincadastro():
     tela.show()
@@ -105,9 +105,9 @@ def perfiltr():
     tela2.close()
     tela4.show()
 
-# def configtr():
-#     tela2.close()
-#     tela6.show()
+def configtr():
+    tela2.close()
+    tela6.show()
 
 ########################################################
 
@@ -123,9 +123,9 @@ def treinosup():
     tela3.close()
     tela7.show()
 
-# def configsup():
-#     tela3.close()
-#     tela6.show()
+def configsup():
+    tela3.close()
+    tela6.show()
 
 ########################################################
 
@@ -141,9 +141,9 @@ def treinoper():
     tela4.close()
     tela7.show()
 
-# def configper():
-#     tela4.close()
-#     tela6.show()
+def configper():
+    tela4.close()
+    tela6.show()
 
 ########################################################
 
@@ -171,9 +171,27 @@ def treinotop():
     tela5.close()
     tela7.show()
 
-# def configtop():
-#     tela5.close()
-#     tela6.show()
+def configtop():
+    tela5.close()
+    tela6.show()
+
+########################################################
+
+def menuconf():
+    tela6.close()
+    tela5.show()
+
+def perfilconf():
+    tela6.close()
+    tela4.show()
+
+def treinoconf():
+    tela6.close()
+    tela7.show()
+
+def configconf():
+    tela6.close()
+    tela6.show()
 
 ########################################################
 
@@ -193,9 +211,9 @@ def definicao():
     tela7.close()
     tela8.show()
 
-# def configpagtr():
-#     tela7.close()
-#     tela6.show()
+def configpagtr():
+    tela7.close()
+    tela6.show()
 
 def hipertrofia():
     tela7.close()
@@ -216,9 +234,9 @@ def treinodef():
     tela8.close()
     tela7.show()
 
-# def configdef():
-#     tela8.close()
-#     tela6.show()
+def configdef():
+   tela8.close()
+   tela6.show()
 
 def defpeito():
     tela8.close()
@@ -258,9 +276,9 @@ def treinocos():
     tela9.close()
     tela7.show()
 
-# def configcos():
-#     tela9.close()
-#     tela6.show()
+def configcos():
+    tela9.close()
+    tela6.show()
 
 ########################################################
 
@@ -276,9 +294,9 @@ def treinodel():
     tela10.close()
     tela7.show()
 
-# def configdel():
-#     tela10.close()
-#     tela6.show()
+def configdel():
+    tela10.close()
+    tela6.show()
 
 ########################################################
 
@@ -294,9 +312,9 @@ def treinoppe():
     tela11.close()
     tela7.show()
 
-# def configppe():
-#     tela11.close()
-#     tela6.show()
+def configppe():
+    tela11.close()
+    tela6.show()
 
 ########################################################
 
@@ -312,9 +330,9 @@ def treinopern():
     tela12.close()
     tela7.show()
 
-# def configpern():
-#     tela12.close()
-#     tela6.show()
+def configpern():
+    tela12.close()
+#   tela6.show()
 
 ########################################################
 
@@ -330,9 +348,9 @@ def treinotri():
     tela13.close()
     tela7.show()
 
-# def configtri():
-#     tela13.close()
-#     tela6.show()
+def configtri():
+    tela13.close()
+    tela6.show()
 
 ########################################################
 
@@ -348,9 +366,9 @@ def treinobi():
     tela14.close()
     tela7.show()
 
-# def configbi():
-#     tela14.close()
-#     tela6.show()
+def configbi():
+    tela14.close()
+    tela6.show()
 
 #######################################################
 
@@ -366,9 +384,9 @@ def treinoa1():
     tela15.close()
     tela7.show()
 
-# def configa1():
-#     tela15.close()
-#     tela6.show()
+def configa1():
+    tela15.close()
+    tela6.show()
 
 def exercicioa1():
     tela20.close()
@@ -392,9 +410,9 @@ def treinoc1():
     tela16.close()
     tela7.show()
 
-# def configa1():
-#     tela16.close()
-#     tela6.show()
+def configc1():
+    tela16.close()
+    tela6.show()
 
 def botaohiperC():
     tela20.close()
@@ -418,9 +436,9 @@ def treinob1():
     tela17.close()
     tela7.show()
 
-# def configb1():
-#     tela17.close()
-#     tela6.show()
+def configb1():
+    tela17.close()
+    tela6.show()
 
 def botaohiperB():
     tela20.close()
@@ -443,9 +461,9 @@ def treinob2():
     tela18.close()
     tela7.show()
 
-# def configb2():
-#     tela18.close()
-#     tela6.show()
+def configb2():
+    tela18.close()
+    tela6.show()
 
 def voltar_B_2():
     tela20.show()
@@ -469,9 +487,9 @@ def treinoc2():
     tela19.close()
     tela7.show()
 
-# def configc2():
-#     tela19.close()
-#     tela6.show()
+def configc2():
+    tela19.close()
+    tela6.show()
 
 def botaohiperC_2():
     tela20.close()
@@ -494,9 +512,9 @@ def treinoa2():
     tela22.close()
     tela7.show()
 
-# def configa2():
-#     tela22.close()
-#     tela6.show()
+def configa2():
+    tela22.close()
+    tela6.show()
 
 def botaohiperA_2():
     tela20.close()
@@ -519,9 +537,9 @@ def treinoinf():
     tela23.close()
     tela7.show()
 
-# def configinf():
-#     tela23.close()
-#     tela6.show()
+def configinf():
+    tela23.close()
+    tela6.show()
 
 ############################################
 
@@ -537,9 +555,9 @@ def treinohi():
     tela20.close()
     tela7.show()
 
-# def confighi():
-#     tela20.close()
-#     tela6.show()
+def confighi():
+    tela20.close()
+    tela6.show()
 
 def infor():
     tela23.show()
@@ -580,7 +598,7 @@ tela2 = uic.loadUi("pagina_treino_em_casa.ui")
 tela3 = uic.loadUi("suplementos1.ui")
 tela4 = uic.loadUi("perfil.ui")
 tela5 = uic.loadUi("topicos.ui")
-# tela6 = uic.loadUi("config.ui")
+tela6 = uic.loadUi("pagina_de_configuracoes.ui")
 tela7 = uic.loadUi("pagina_de_treino.ui")
 tela8 = uic.loadUi("pagina_de_definicao.ui")
 tela9 = uic.loadUi("pagina_de_exercicios_Costas.ui")
@@ -597,6 +615,8 @@ tela19 = uic.loadUi("pagina de exercicios  C (2) Hipertrofia.ui")
 tela20 = uic.loadUi("pagina_de_hipertrofia.ui")
 tela22 = uic.loadUi("pagina de exercicios A (2).ui")
 tela23 = uic.loadUi("pagina_de_informacoes.ui")
+
+
 # tela.cadastrar.clicked.connect(cadastro)
 tela.voltaplogin.clicked.connect(voltaplogin)
 
@@ -613,11 +633,11 @@ tela3.omega3.clicked.connect(omega3)
 tela3.menu_4.clicked.connect(menusup)  #Botões suplementos
 tela3.perfil.clicked.connect(perfilsup) 
 tela3.treino.clicked.connect(treinosup)  
-#tela3.config.clicked.connect(configsup)
+tela3.config.clicked.connect(configsup)
 
 tela2.menu_4.clicked.connect(menutr) 
 tela2.perfil.clicked.connect(perfiltr) # botões treino em casa
-#tela2.config.clicked.connect(configtr)
+tela2.config.clicked.connect(configtr)
 tela2.acessarcarol.clicked.connect(acessarcarol) # botões treino em casa
 tela2.acessaremi.clicked.connect(acessaremi) # botões treino em casa
 tela2.acessaramanda.clicked.connect(acessaramanda) # botões treino em casa
@@ -625,7 +645,7 @@ tela2.acessaramanda.clicked.connect(acessaramanda) # botões treino em casa
 tela4.menu_4.clicked.connect(menuper)
 tela4.perfilbot.clicked.connect(perfilper) # botão perfil
 tela4.treino.clicked.connect(treinoper) 
-#tela4.config.clicked.connect(configper)
+tela4.config.clicked.connect(configper)
 
 tela5.treinoemcasa.clicked.connect(treinoemcasa)
 tela5.suplementos.clicked.connect(suplementos)
@@ -633,20 +653,24 @@ tela5.exercicios.clicked.connect(exercicio)
 tela5.menu_4.clicked.connect(menutop)
 tela5.perfil.clicked.connect(perfiltop) # botão 
 tela5.treino.clicked.connect(treinotop)  
-#tela5.config.clicked.connect(configtop)
+tela5.config.clicked.connect(configtop)
+
+tela6.menu_4.clicked.connect(menuconf)
+tela6.perfil.clicked.connect(perfilconf) # botão 
+tela6.treino.clicked.connect(treinoconf)  
+tela6.config.clicked.connect(configconf)
 
 tela7.menu_4.clicked.connect(menupagtr)
 tela7.perfil.clicked.connect(perfilpagtr) # botão 
 tela7.treino.clicked.connect(treinopagtr)  
-#tela7.config.clicked.connect(configpagtr)
+tela7.config.clicked.connect(configpagtr)
 tela7.definicao.clicked.connect(definicao)
 tela7.hipertrofia.clicked.connect(hipertrofia)
 tela7.infos.clicked.connect(infor)
-#
 tela8.menu_4.clicked.connect(menudef)
 tela8.perfil.clicked.connect(perfildef) # botão 
 tela8.treino.clicked.connect(treinodef)  
-#tela8.config.clicked.connect(configdef)
+tela8.config.clicked.connect(configdef)
 tela8.botaodefpeito.clicked.connect(defpeito)
 tela8.botaodeftriceps.clicked.connect(botaodeftriceps)
 tela8.botaodefcostas.clicked.connect(botaodefcostas)
@@ -658,53 +682,53 @@ tela8.botaodefdeltoides.clicked.connect(botaodefdeltoides)
 tela9.menu_4.clicked.connect(menucos)
 tela9.perfil.clicked.connect(perfilcos) # botão 
 tela9.treino.clicked.connect(treinocos)  
-#tela9.config.clicked.connect(configcos)
+tela9.config.clicked.connect(configcos)
 
 tela10.menu_4.clicked.connect(menudel)
 tela10.perfil.clicked.connect(perfildel) # botão 
 tela10.treino.clicked.connect(treinodel)  
-#tela10.config.clicked.connect(configdel)
+tela10.config.clicked.connect(configdel)
 
 tela11.menu_4.clicked.connect(menuppe)
 tela11.perfil.clicked.connect(perfilppe) # botão 
 tela11.treino.clicked.connect(treinoppe)  
-#tela11.config.clicked.connect(configppe)
+tela11.config.clicked.connect(configppe)
 
 tela12.menu_4.clicked.connect(menupern)
 tela12.perfil.clicked.connect(perfilpern) # botão 
 tela12.treino.clicked.connect(treinopern)  
-#tela5.config.clicked.connect(configpern)
+tela5.config.clicked.connect(configpern)
 
 tela13.menu_4.clicked.connect(menutri)
 tela13.perfil.clicked.connect(perfiltri) # botão 
 tela13.treino.clicked.connect(treinotri)  
-#tela13.config.clicked.connect(configtri)
+tela13.config.clicked.connect(configtri)
 
 tela14.menu_4.clicked.connect(menubi)
 tela14.perfil.clicked.connect(perfilbi) # botão 
 tela14.treino.clicked.connect(treinobi)  
-#tela14.config.clicked.connect(configbi)
+tela14.config.clicked.connect(configbi)
 
 tela15.menu_4.clicked.connect(menua1)
 tela15.perfil.clicked.connect(perfila1) # botão 
 tela15.treino.clicked.connect(treinoa1)  
-#tela15.config.clicked.connect(configa1)
+tela15.config.clicked.connect(configa1)
 tela15.voltar_A_1.clicked.connect(voltar_A_1)
 
 tela16.menu_4.clicked.connect(menuc1)
 tela16.perfil.clicked.connect(perfilc1) # botão 
 tela16.treino.clicked.connect(treinoc1)  
-#tela16.config.clicked.connect(configc1)
+tela16.config.clicked.connect(configc1)
 tela16.voltar_C_1.clicked.connect(voltar_C_1)
 tela17.menu_4.clicked.connect(menub1)
 tela17.perfil.clicked.connect(perfilb1) # botão 
 tela17.treino.clicked.connect(treinob1)  
-#tela17.config.clicked.connect(configb1)
+tela17.config.clicked.connect(configb1)
 tela17.voltar_B_1.clicked.connect(voltar_B_1)
 tela18.menu_4.clicked.connect(menub2)
 tela18.perfil.clicked.connect(perfilb2) # botão 
 tela18.treino.clicked.connect(treinob2)  
-#tela18.config.clicked.connect(configb2)
+tela18.config.clicked.connect(configb2)
 tela18.voltar_B_2.clicked.connect(voltar_B_2)
 
 tela19.menu_4.clicked.connect(menuc2)
@@ -742,5 +766,5 @@ tela13.voltartriceps.clicked.connect(voltartriceps)
 tela9.voltarcostas.clicked.connect(voltarcostas)
 tela11.voltarpeito.clicked.connect(voltarpeito)
 
-tela5.show()
+tela1.show()
 app.exec()

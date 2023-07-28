@@ -101,7 +101,7 @@ border:none;
     </size>
    </property>
   </widget>
-  <widget class="QPushButton" name="botaoconfig_2">
+  <widget class="QPushButton" name="config">
    <property name="geometry">
     <rect>
      <x>240</x>
