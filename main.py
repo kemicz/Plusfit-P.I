@@ -28,7 +28,7 @@ def cadastro():
      gordura= tela.gordura.text()
 
      cursor= banco.cursor()
-     sql= "INSERT INTO cadastro_1 (nome, sobrenome, email, senha, peso, altura) VALUES (%s, %s, %s, %s, %s, %s, %s)"
+     sql= "INSERT INTO cadastro_1 (nome, sobrenome, email, senha, peso, altura, gordura) VALUES (%s, %s, %s, %s, %s, %s, %s)"
      colunas= (str(nome), str(sobrenome), str(email), str(senha), str(peso), str(altura), str(gordura))
      cursor.execute(sql, colunas)
      banco.commit()
@@ -46,7 +46,7 @@ def entrar():
      if login_input != '' and senha_input != '':
          if senha_input == senha_banco[0][0]:
              QMessageBox.about(tela, "Bem-vindo(a)", "Seja Bem-vindo(a) ao PlanusFit.")
-             #TELA ´PRINCIPAL AQUI
+             tela5.show()
              tela1.close()
 
 def logincadastro():
@@ -56,14 +56,6 @@ def logincadastro():
 def voltaplogin():
     tela.close()
     tela1.show()
-
-def cadastrar():
-    tela.close()
-    tela4.show()
-
-def tela_principal():
-    tela1.close()
-    tela4.show()
 
 ########################################################
 
@@ -105,6 +97,17 @@ def perfiltr():
     tela2.close()
     tela4.show()
 
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
 def configtr():
     tela2.close()
     tela6.show()
@@ -118,6 +121,18 @@ def menusup():
 def perfilsup():
     tela3.close()
     tela4.show()
+
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
 
 def treinosup():
     tela3.close()
@@ -136,6 +151,17 @@ def menuper():
 def perfilper():
     tela4.close()
     tela4.show()
+
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
 
 def treinoper():
     tela4.close()
@@ -167,6 +193,18 @@ def perfiltop():
     tela5.close()
     tela4.show()
 
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
+
 def treinotop():
     tela5.close()
     tela7.show()
@@ -185,6 +223,18 @@ def perfilconf():
     tela6.close()
     tela4.show()
 
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
+
 def treinoconf():
     tela6.close()
     tela7.show()
@@ -202,6 +252,18 @@ def menupagtr():
 def perfilpagtr():
     tela7.close()
     tela4.show()
+
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
 
 def treinopagtr():
     tela7.close()
@@ -229,6 +291,18 @@ def menudef():
 def perfildef():
     tela8.close()
     tela4.show()
+
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
 
 def treinodef():
     tela8.close()
@@ -272,6 +346,18 @@ def perfilcos():
     tela9.close()
     tela4.show()
 
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
+
 def treinocos():
     tela9.close()
     tela7.show()
@@ -289,6 +375,18 @@ def menudel():
 def perfildel():
     tela10.close()
     tela4.show()
+
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
 
 def treinodel():
     tela10.close()
@@ -308,6 +406,18 @@ def perfilppe():
     tela11.close()
     tela4.show()
 
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
+
 def treinoppe():
     tela11.close()
     tela7.show()
@@ -325,6 +435,18 @@ def menupern():
 def perfilpern():
     tela12.close()
     tela4.show()
+
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
 
 def treinopern():
     tela12.close()
@@ -344,6 +466,18 @@ def perfiltri():
     tela13.close()
     tela4.show()
 
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
+
 def treinotri():
     tela13.close()
     tela7.show()
@@ -362,6 +496,17 @@ def perfilbi():
     tela14.close()
     tela4.show()
 
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
 def treinobi():
     tela14.close()
     tela7.show()
@@ -379,6 +524,18 @@ def menua1():
 def perfila1():
     tela15.close()
     tela4.show()
+
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
 
 def treinoa1():
     tela15.close()
@@ -406,6 +563,18 @@ def perfilc1():
     tela16.close()
     tela4.show()
 
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
+
 def treinoc1():
     tela16.close()
     tela7.show()
@@ -432,6 +601,18 @@ def perfilb1():
     tela17.close()
     tela4.show()
 
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
+
 def treinob1():
     tela17.close()
     tela7.show()
@@ -456,6 +637,18 @@ def menub2():
 def perfilb2():
     tela18.close()
     tela4.show()
+
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
 
 def treinob2():
     tela18.close()
@@ -483,6 +676,18 @@ def perfilc2():
     tela19.close()
     tela4.show()
 
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
+
 def treinoc2():
     tela19.close()
     tela7.show()
@@ -507,6 +712,18 @@ def menua2():
 def perfila2():
     tela22.close()
     tela4.show()
+
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
 
 def treinoa2():
     tela22.close()
@@ -533,6 +750,18 @@ def perfilinf():
     tela23.close()
     tela4.show()
 
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
+
 def treinoinf():
     tela23.close()
     tela7.show()
@@ -550,6 +779,18 @@ def menuahi():
 def perfilhi():
     tela20.close()
     tela4.show()
+
+    cursor= banco.cursor()
+    sql= "select * from cadastro_1"
+    cursor.execute(sql)
+    dados= cursor.fetchall()
+    tela4.tabela.setRowCount(len(dados))
+    tela4.tabela.setColumnCount(3)
+
+    for contador in range(0, len(dados)):
+        for acessar in range(0,3):
+            tela4.tabela.setItem(contador, acessar, QtWidgets.QTableWidgetItem(str(dados[contador][acessar])))
+
 
 def treinohi():
     tela20.close()
@@ -617,12 +858,12 @@ tela22 = uic.loadUi("pagina de exercicios A (2).ui")
 tela23 = uic.loadUi("pagina_de_informacoes.ui")
 
 
-# tela.cadastrar.clicked.connect(cadastro)
+tela.cadastrar.clicked.connect(cadastro)
 tela.voltaplogin.clicked.connect(voltaplogin)
 
-# tela1.entrar.clicked.connect(entrar)
+tela1.entrar.clicked.connect(entrar)
 tela1.cadastrarlog.clicked.connect(logincadastro)
-tela1.entrar.clicked.connect(tela_principal)
+
  
 tela3.l_arginina.clicked.connect(larginina)
 tela3.bcaa.clicked.connect(bcaa)

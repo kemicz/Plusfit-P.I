@@ -28,81 +28,6 @@
   <property name="styleSheet">
    <string notr="true">background-color: #00413D;</string>
   </property>
-  <widget class="QFrame" name="titulo">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>30</y>
-     <width>461</width>
-     <height>91</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">#titulo{
-background-color: rgb(1, 55, 51);
-}</string>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::StyledPanel</enum>
-   </property>
-   <property name="frameShadow">
-    <enum>QFrame::Raised</enum>
-   </property>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>80</x>
-      <y>-40</y>
-      <width>281</width>
-      <height>121</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>fotos/treino em casa (2) (2).png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QFrame" name="frame_2">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>70</y>
-      <width>461</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
-    </property>
-    <widget class="QLabel" name="label_6">
-     <property name="geometry">
-      <rect>
-       <x>-20</x>
-       <y>-90</y>
-       <width>481</width>
-       <height>201</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>fotos/topicos1.png</pixmap>
-     </property>
-     <property name="scaledContents">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </widget>
-  </widget>
   <widget class="QFrame" name="barra">
    <property name="geometry">
     <rect>
@@ -443,34 +368,34 @@ background-color: #0A5B56;
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QFrame" name="titulo2">
+  <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>461</width>
-     <height>80</height>
+     <width>462</width>
+     <height>101</height>
     </rect>
    </property>
-   <property name="styleSheet">
-    <string notr="true">#titulo2{
-background-color: rgb(1, 55, 51);
-}</string>
+   <property name="minimumSize">
+    <size>
+     <width>462</width>
+     <height>101</height>
+    </size>
    </property>
-   <property name="frameShape">
-    <enum>QFrame::StyledPanel</enum>
+   <property name="text">
+    <string/>
    </property>
-   <property name="frameShadow">
-    <enum>QFrame::Raised</enum>
+   <property name="pixmap">
+    <pixmap>fotos/perfil-titulo.png</pixmap>
    </property>
   </widget>
-  <zorder>titulo2</zorder>
   <zorder>label_8</zorder>
   <zorder>label_7</zorder>
-  <zorder>titulo</zorder>
   <zorder>barra</zorder>
   <zorder>label</zorder>
   <zorder>tabela</zorder>
+  <zorder>label_2</zorder>
  </widget>
  <resources/>
  <connections/>

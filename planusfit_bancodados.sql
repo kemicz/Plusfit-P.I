@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 20-Jul-2023 às 19:58
+-- Tempo de geração: 28-Jul-2023 às 20:34
 -- Versão do servidor: 10.4.25-MariaDB
 -- versão do PHP: 8.1.10
 
@@ -24,53 +24,36 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `cadastro`
+-- Estrutura da tabela `cadastro_1`
 --
 
-CREATE TABLE `cadastro` (
-  `id` int(100) NOT NULL,
+CREATE TABLE `cadastro_1` (
+  `peso` int(10) NOT NULL,
+  `altura` int(10) NOT NULL,
+  `gordura` int(10) NOT NULL,
+  `id` int(50) NOT NULL,
   `nome` varchar(120) NOT NULL,
   `sobrenome` varchar(120) NOT NULL,
   `email` varchar(120) NOT NULL,
-  `senha` varchar(20) NOT NULL,
-  `peso` float NOT NULL,
-  `altura` float NOT NULL
+  `senha` varchar(120) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Extraindo dados da tabela `cadastro`
+-- Extraindo dados da tabela `cadastro_1`
 --
 
-INSERT INTO `cadastro` (`id`, `nome`, `sobrenome`, `email`, `senha`, `peso`, `altura`) VALUES
-(18, 'as', 'as', 'as', 'as', 0, 0),
-(19, '', '', '', '', 0, 0);
-
--- --------------------------------------------------------
-
---
--- Estrutura da tabela `login`
---
-
-CREATE TABLE `login` (
-  `id` int(100) NOT NULL,
-  `email` varchar(50) NOT NULL,
-  `senha` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+INSERT INTO `cadastro_1` (`peso`, `altura`, `gordura`, `id`, `nome`, `sobrenome`, `email`, `senha`) VALUES
+(20, 41, 10, 1, 'a', 'a', 'a', 'a'),
+(1, 1, 1, 2, 'a', 'a', 'a', 'a');
 
 --
 -- Índices para tabelas despejadas
 --
 
 --
--- Índices para tabela `cadastro`
+-- Índices para tabela `cadastro_1`
 --
-ALTER TABLE `cadastro`
-  ADD PRIMARY KEY (`id`);
-
---
--- Índices para tabela `login`
---
-ALTER TABLE `login`
+ALTER TABLE `cadastro_1`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -78,16 +61,10 @@ ALTER TABLE `login`
 --
 
 --
--- AUTO_INCREMENT de tabela `cadastro`
+-- AUTO_INCREMENT de tabela `cadastro_1`
 --
-ALTER TABLE `cadastro`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
-
---
--- AUTO_INCREMENT de tabela `login`
---
-ALTER TABLE `login`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `cadastro_1`
+  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
