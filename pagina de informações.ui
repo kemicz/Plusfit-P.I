@@ -28,7 +28,23 @@
   <property name="styleSheet">
    <string notr="true">background-color: rgb(0, 65, 61);</string>
   </property>
-  <widget class="QLabel" name="label_5">
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>462</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>pag - infos/info.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -44,10 +60,10 @@
     <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="menu_4">
+  <widget class="QPushButton" name="botaomenu">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>10</x>
      <y>810</y>
      <width>81</width>
      <height>81</height>
@@ -63,7 +79,7 @@ border:none;
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>fotos/menu.png</normaloff>fotos/menu.png</iconset>
+     <normaloff>icones de navegação/ICONE-MENU.png</normaloff>icones de navegação/ICONE-MENU.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -72,7 +88,7 @@ border:none;
     </size>
    </property>
   </widget>
-  <widget class="QPushButton" name="treino">
+  <widget class="QPushButton" name="botaotreino">
    <property name="geometry">
     <rect>
      <x>130</x>
@@ -91,7 +107,7 @@ border:none;
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>fotos/treino.png</normaloff>fotos/treino.png</iconset>
+     <normaloff>icones de navegação/ICONE-TREINO.png</normaloff>icones de navegação/ICONE-TREINO.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -100,10 +116,10 @@ border:none;
     </size>
    </property>
   </widget>
-  <widget class="QPushButton" name="config">
+  <widget class="QPushButton" name="botaoconfig">
    <property name="geometry">
     <rect>
-     <x>250</x>
+     <x>240</x>
      <y>810</y>
      <width>81</width>
      <height>81</height>
@@ -119,7 +135,7 @@ border:none;
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>fotos/config.png</normaloff>fotos/config.png</iconset>
+     <normaloff>icones de navegação/ICONE-CONFIG.png</normaloff>icones de navegação/ICONE-CONFIG.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -128,13 +144,41 @@ border:none;
     </size>
    </property>
   </widget>
+  <widget class="QPushButton" name="botaoperfil">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>810</y>
+     <width>81</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#botaoperfil{
+border:none;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icones de navegação/ICONE-PERFIL.png</normaloff>icones de navegação/ICONE-PERFIL.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>80</height>
+    </size>
+   </property>
+  </widget>
   <widget class="QScrollArea" name="scrollArea">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>0</y>
+     <x>-1</x>
+     <y>89</y>
      <width>461</width>
-     <height>801</height>
+     <height>711</height>
     </rect>
    </property>
    <property name="widgetResizable">
@@ -146,7 +190,7 @@ border:none;
       <x>0</x>
       <y>0</y>
       <width>442</width>
-      <height>1018</height>
+      <height>2518</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -154,8 +198,8 @@ border:none;
       <widget class="QFrame" name="frame">
        <property name="minimumSize">
         <size>
-         <width>300</width>
-         <height>1000</height>
+         <width>400</width>
+         <height>2500</height>
         </size>
        </property>
        <property name="frameShape">
@@ -164,80 +208,26 @@ border:none;
        <property name="frameShadow">
         <enum>QFrame::Raised</enum>
        </property>
-       <widget class="QLabel" name="label">
+       <widget class="QLabel" name="label_2">
         <property name="geometry">
          <rect>
-          <x>20</x>
-          <y>10</y>
-          <width>462</width>
-          <height>1051</height>
+          <x>-10</x>
+          <y>-10</y>
+          <width>410</width>
+          <height>2500</height>
          </rect>
         </property>
         <property name="text">
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap>fotos/exercicios trapezio.png</pixmap>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="voltardel">
-        <property name="geometry">
-         <rect>
-          <x>0</x>
-          <y>0</y>
-          <width>75</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">#voltardel{
-background-color: rgb(10, 91, 86);
-color: rgb(255, 221, 166);
-font-size: 15px;
-}</string>
-        </property>
-        <property name="text">
-         <string>voltar</string>
+         <pixmap>pag - infos/infos.png</pixmap>
         </property>
        </widget>
       </widget>
      </item>
     </layout>
    </widget>
-  </widget>
-  <widget class="QPushButton" name="perfil">
-   <property name="geometry">
-    <rect>
-     <x>360</x>
-     <y>810</y>
-     <width>81</width>
-     <height>81</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>81</width>
-     <height>81</height>
-    </size>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">#menu{
-border:none;
-}</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="icon">
-    <iconset>
-     <normaloff>fotos/perfil.png</normaloff>fotos/perfil.png</iconset>
-   </property>
-   <property name="iconSize">
-    <size>
-     <width>81</width>
-     <height>81</height>
-    </size>
-   </property>
   </widget>
  </widget>
  <resources/>

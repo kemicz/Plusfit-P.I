@@ -523,9 +523,55 @@ def treinoinf():
 #     tela23.close()
 #     tela6.show()
 
+############################################
+
+def menuahi():
+    tela20.close()
+    tela5.show()
+
+def perfilhi():
+    tela20.close()
+    tela4.show()
+
+def treinohi():
+    tela20.close()
+    tela7.show()
+
+# def confighi():
+#     tela20.close()
+#     tela6.show()
+
 def infor():
     tela23.show()
     tela7.close()
+
+############voltar definição #############
+
+def voltarbiceps():
+    tela8.show()
+    tela14.close()
+
+def voltardel():
+    tela8.show()
+    tela10.close()
+
+def voltarperna():
+    tela8.show()
+    tela12.close()
+
+def voltartriceps():
+    tela8.show()
+    tela13.close()
+
+def voltarcostas():
+    tela8.show()
+    tela9.close()
+
+def voltarpeito():
+    tela8.show()
+    tela11.close()
+
+#############################################
 
 app = QtWidgets.QApplication([])
 tela = uic.loadUi("pagina_de_cadastro.ui")
@@ -574,6 +620,7 @@ tela2.perfil.clicked.connect(perfiltr) # botões treino em casa
 #tela2.config.clicked.connect(configtr)
 
 
+
 tela4.menu_4.clicked.connect(menuper)
 tela4.perfilbot.clicked.connect(perfilper) # botão perfil
 tela4.treino.clicked.connect(treinoper) 
@@ -593,7 +640,7 @@ tela7.treino.clicked.connect(treinopagtr)
 #tela7.config.clicked.connect(configpagtr)
 tela7.definicao.clicked.connect(definicao)
 tela7.hipertrofia.clicked.connect(hipertrofia)
-tela7.inf.clicked.connect(infor)
+tela7.infos.clicked.connect(infor)
 #
 tela8.menu_4.clicked.connect(menudef)
 tela8.perfil.clicked.connect(perfildef) # botão 
@@ -676,11 +723,23 @@ tela23.perfil.clicked.connect(perfilinf) # botão
 tela23.treino.clicked.connect(treinoinf)  
 #tela23.config.clicked.connect(configinf)
 
+tela20.menu_4.clicked.connect(menuahi)
+tela20.perfil.clicked.connect(perfilhi) # botão 
+tela20.treino.clicked.connect(treinohi)  
+#tela20.config.clicked.connect(confighi)
 tela20.botaohiperA.clicked.connect(exercicioa1)
 tela20.botaohiperB.clicked.connect(botaohiperB)
 tela20.botaohiperC.clicked.connect(botaohiperC)
 tela20.botaohiperC_2.clicked.connect(botaohiperC_2)
 tela20.botaohiperA_2.clicked.connect(botaohiperA_2)
 tela20.botaohiperB_2.clicked.connect(botaohiperB_2)
+
+tela10.voltardel.clicked.connect(voltardel)
+tela14.voltarbiceps.clicked.connect(voltarbiceps)
+tela12.voltarperna.clicked.connect(voltarperna)
+tela13.voltartriceps.clicked.connect(voltartriceps)
+tela9.voltarcostas.clicked.connect(voltarcostas)
+tela11.voltarpeito.clicked.connect(voltarpeito)
+
 tela5.show()
 app.exec()

@@ -371,7 +371,7 @@ font-size: 15px;
       <string>Definição</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="inf">
+    <widget class="QPushButton" name="infos">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -424,7 +424,7 @@ font-size: 15px;
     <zorder>butaodefinicao</zorder>
     <zorder>hipertrofia</zorder>
     <zorder>definicao</zorder>
-    <zorder>inf</zorder>
+    <zorder>infos</zorder>
     <zorder>label_3</zorder>
     <zorder>butaohipertrofia</zorder>
    </widget>

@@ -6,20 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>390</width>
-    <height>844</height>
+    <width>462</width>
+    <height>901</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>390</width>
-    <height>844</height>
+    <width>462</width>
+    <height>901</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>390</width>
-    <height>844</height>
+    <width>462</width>
+    <height>901</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -33,8 +33,8 @@
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>740</y>
-     <width>401</width>
+     <y>800</y>
+     <width>461</width>
      <height>101</height>
     </rect>
    </property>
@@ -48,8 +48,8 @@
   <widget class="QPushButton" name="menu_4">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>750</y>
+     <x>20</x>
+     <y>810</y>
      <width>81</width>
      <height>81</height>
     </rect>
@@ -76,8 +76,8 @@ border:none;
   <widget class="QPushButton" name="config">
    <property name="geometry">
     <rect>
-     <x>200</x>
-     <y>750</y>
+     <x>230</x>
+     <y>810</y>
      <width>81</width>
      <height>81</height>
     </rect>
@@ -104,10 +104,10 @@ border:none;
   <widget class="QScrollArea" name="scrollArea">
    <property name="geometry">
     <rect>
-     <x>-1</x>
-     <y>-1</y>
-     <width>391</width>
-     <height>741</height>
+     <x>0</x>
+     <y>0</y>
+     <width>461</width>
+     <height>811</height>
     </rect>
    </property>
    <property name="widgetResizable">
@@ -118,7 +118,7 @@ border:none;
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>372</width>
+      <width>442</width>
       <height>1018</height>
      </rect>
     </property>
@@ -140,10 +140,10 @@ border:none;
        <widget class="QLabel" name="label">
         <property name="geometry">
          <rect>
-          <x>-10</x>
-          <y>-10</y>
+          <x>30</x>
+          <y>-21</y>
           <width>390</width>
-          <height>1000</height>
+          <height>1011</height>
          </rect>
         </property>
         <property name="text">
@@ -151,6 +151,26 @@ border:none;
         </property>
         <property name="pixmap">
          <pixmap>fotos/exercicios biceps.png</pixmap>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="voltarbiceps">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#voltarbiceps{
+background-color: rgb(10, 91, 86);
+color: rgb(255, 221, 166);
+font-size: 15px;
+}</string>
+        </property>
+        <property name="text">
+         <string>voltar</string>
         </property>
        </widget>
       </widget>
@@ -161,8 +181,8 @@ border:none;
   <widget class="QPushButton" name="treino">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>750</y>
+     <x>120</x>
+     <y>810</y>
      <width>81</width>
      <height>81</height>
     </rect>
@@ -189,8 +209,8 @@ border:none;
   <widget class="QPushButton" name="perfil">
    <property name="geometry">
     <rect>
-     <x>300</x>
-     <y>750</y>
+     <x>340</x>
+     <y>810</y>
      <width>81</width>
      <height>81</height>
     </rect>
