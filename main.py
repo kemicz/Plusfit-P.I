@@ -88,13 +88,13 @@ def whey():
 ########################################################
 
 
-def carolborba():
+def acessarcarol():
     webbrowser.open("https://www.youtube.com/@carolborba")
 
-def emiwong():
+def acessaremi():
     webbrowser.open("https://www.youtube.com/@emiwong")
 
-def amandabiuger():
+def acessaramanda():
     webbrowser.open("https://www.youtube.com/@amandabiuger")
 
 def menutr():
@@ -618,8 +618,9 @@ tela3.treino.clicked.connect(treinosup)
 tela2.menu_4.clicked.connect(menutr) 
 tela2.perfil.clicked.connect(perfiltr) # botões treino em casa
 #tela2.config.clicked.connect(configtr)
-
-
+tela2.acessarcarol.clicked.connect(acessarcarol) # botões treino em casa
+tela2.acessaremi.clicked.connect(acessaremi) # botões treino em casa
+tela2.acessaramanda.clicked.connect(acessaramanda) # botões treino em casa
 
 tela4.menu_4.clicked.connect(menuper)
 tela4.perfilbot.clicked.connect(perfilper) # botão perfil
