@@ -2,6 +2,14 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>462</width>
+    <height>901</height>
+   </rect>
+  </property>
   <property name="minimumSize">
    <size>
     <width>462</width>
@@ -51,7 +59,7 @@ background-color: transparent ;</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../Desktop/fotos/bcaa.png</normaloff>../Desktop/fotos/bcaa.png</iconset>
+       <normaloff>fotos/bcaa.png</normaloff>fotos/bcaa.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -87,7 +95,7 @@ background-color: transparent ;</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../Desktop/fotos/whey.png</normaloff>../Desktop/fotos/whey.png</iconset>
+       <normaloff>fotos/whey.png</normaloff>fotos/whey.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -123,7 +131,7 @@ background-color: transparent ;</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../Desktop/fotos/glutamina.png</normaloff>../Desktop/fotos/glutamina.png</iconset>
+       <normaloff>fotos/glutamina.png</normaloff>fotos/glutamina.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -159,7 +167,7 @@ background-color: transparent ;</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>../Desktop/fotos/creatina.png</normaloff>../Desktop/fotos/creatina.png</iconset>
+       <normaloff>fotos/creatina.png</normaloff>fotos/creatina.png</iconset>
      </property>
      <property name="iconSize">
       <size>

@@ -55,7 +55,7 @@ background:transparent;
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../Downloads/MicrosoftTeams-image (4).png</pixmap>
+    <pixmap>fotos/config-fundo.png</pixmap>
    </property>
   </widget>
   <widget class="QFrame" name="a">
@@ -220,6 +220,38 @@ border:none;
      </size>
     </property>
    </widget>
+   <widget class="QFrame" name="barra">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>10</y>
+      <width>481</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>81</width>
+      <height>81</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#barra{
+background-color: rgb(1, 55, 51);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <zorder>barra</zorder>
+   <zorder>config</zorder>
+   <zorder>menu_4</zorder>
+   <zorder>perfil</zorder>
+   <zorder>treino</zorder>
   </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">

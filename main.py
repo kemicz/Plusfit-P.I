@@ -243,6 +243,10 @@ def configconf():
     tela6.close()
     tela6.show()
 
+def sair():
+    tela6.close()
+    tela1.show()
+
 ########################################################
 
 def menupagtr():
@@ -900,6 +904,7 @@ tela6.menu_4.clicked.connect(menuconf)
 tela6.perfil.clicked.connect(perfilconf) # botão 
 tela6.treino.clicked.connect(treinoconf)  
 tela6.config.clicked.connect(configconf)
+tela6.sair.clicked.connect(sair)
 
 tela7.menu_4.clicked.connect(menupagtr)
 tela7.perfil.clicked.connect(perfilpagtr) # botão 
