@@ -883,9 +883,9 @@ tela3.config.clicked.connect(configsup)
 tela2.menu_4.clicked.connect(menutr) 
 tela2.perfil.clicked.connect(perfiltr) # botões treino em casa
 tela2.config.clicked.connect(configtr)
-tela2.acessarcarol.clicked.connect(acessarcarol) # botões treino em casa
-tela2.acessaremi.clicked.connect(acessaremi) # botões treino em casa
-tela2.acessaramanda.clicked.connect(acessaramanda) # botões treino em casa
+tela2.acessarcarol.clicked.connect(acessarcarol) # botões treino em casa yt
+tela2.acessaremi.clicked.connect(acessaremi) 
+tela2.acessaramanda.clicked.connect(acessaramanda)
 
 tela4.menu_4.clicked.connect(menuper)
 tela4.perfilbot.clicked.connect(perfilper) # botão perfil
@@ -980,24 +980,24 @@ tela18.voltar_B_2.clicked.connect(voltar_B_2)
 tela19.menu_4.clicked.connect(menuc2)
 tela19.perfil.clicked.connect(perfilc2) # botão 
 tela19.treino.clicked.connect(treinoc2)  
-#tela19.config.clicked.connect(configc2)
+tela19.config.clicked.connect(configc2)
 tela19.voltar_C_2.clicked.connect(voltar_C_2)
 
 tela22.menu_4.clicked.connect(menua2)
 tela22.perfil.clicked.connect(perfila2) # botão 
 tela22.treino.clicked.connect(treinoa2)  
-#tela22.config.clicked.connect(configa2)
+tela22.config.clicked.connect(configa2)
 tela22.voltar_A_2.clicked.connect(voltar_A_2)
 
 tela23.menu_4.clicked.connect(menuainf)
 tela23.perfil.clicked.connect(perfilinf) # botão 
 tela23.treino.clicked.connect(treinoinf)  
-#tela23.config.clicked.connect(configinf)
+tela23.config.clicked.connect(configinf)
 
 tela20.menu_4.clicked.connect(menuahi)
 tela20.perfil.clicked.connect(perfilhi) # botão 
 tela20.treino.clicked.connect(treinohi)  
-#tela20.config.clicked.connect(confighi)
+tela20.config.clicked.connect(confighi)
 tela20.botaohiperA.clicked.connect(exercicioa1)
 tela20.botaohiperB.clicked.connect(botaohiperB)
 tela20.botaohiperC.clicked.connect(botaohiperC)
@@ -1012,5 +1012,5 @@ tela13.voltartriceps.clicked.connect(voltartriceps)
 tela9.voltarcostas.clicked.connect(voltarcostas)
 tela11.voltarpeito.clicked.connect(voltarpeito)
 
-tela1.show()
+tela5.show()
 app.exec()
