@@ -112,6 +112,10 @@ def configtr():
     tela2.close()
     tela6.show()
 
+def treinotr():
+    tela2.close()
+    tela7 .show()
+
 ########################################################
 
 def menusup():
@@ -882,6 +886,7 @@ tela3.config.clicked.connect(configsup)
 
 tela2.menu_4.clicked.connect(menutr) 
 tela2.perfil.clicked.connect(perfiltr) # botões treino em casa
+tela2.treino.clicked.connect(treinotr)  
 tela2.config.clicked.connect(configtr)
 tela2.acessarcarol.clicked.connect(acessarcarol) # botões treino em casa yt
 tela2.acessaremi.clicked.connect(acessaremi) 
